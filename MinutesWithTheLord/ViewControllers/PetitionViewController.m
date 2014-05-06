@@ -8,12 +8,13 @@
 
 #import "PetitionViewController.h"
 #import "BottomNavBar.h"
+#import "EndingViewController.h"
 #define PETITION_TIME 5
 
 @interface PetitionViewController ()
 
 @property (strong, nonatomic) BottomNavBar *bottomNav;
-//@property (strong, nonatomic) PrayingViewController *prayingVC;
+@property (strong, nonatomic) EndingViewController *endingVC;
 @property (strong, nonatomic) NSTimer *timeoutTimer;
 @property (nonatomic) int percentage;
 @property (nonatomic) BOOL ispaused;
@@ -41,6 +42,8 @@
 {
     [super viewWillAppear:animated];
     [[self navigationController] setNavigationBarHidden:YES animated:NO];
+    self.percentage = 0;
+    self.timerLabel.text = [NSString stringWithFormat:@"%d", PETITION_TIME - self.percentage];
     [self scheduleTimeoutTimer];
 }
 
@@ -57,7 +60,7 @@
     CGRect frame = _bottomNavBar.frame;
     frame.origin = CGPointZero;
     self.bottomNav = [[BottomNavBar alloc] initWithFrame:frame];
-    //[self.bottomNav setupAsTitleAndBackButton];
+    [self.bottomNav setupAsNormalPage];
     
     [self.bottomNav.backwardButton addTarget:self
                                       action:@selector(backwardButtonAction)
@@ -109,10 +112,10 @@
             self.percentage = PETITION_TIME;
             [self removeTimeoutTimer];
             
-            /*if (self.prayingVC == nil) {
-                self.prayingVC = [[PrayingViewController alloc] initWithNibName:@"PrayingViewController" bundle:nil];
+            if (self.endingVC == nil) {
+                self.endingVC = [[EndingViewController alloc] initWithNibName:@"EndingViewController" bundle:nil];
             }
-            [self.navigationController pushViewController:self.prayingVC animated:YES];*/
+            [self.navigationController pushViewController:self.endingVC animated:YES];
         }
         self.timerLabel.text = [NSString stringWithFormat:@"%d", PETITION_TIME - self.percentage];
     }

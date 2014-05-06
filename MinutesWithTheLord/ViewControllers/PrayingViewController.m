@@ -42,6 +42,8 @@
 {
     [super viewWillAppear:animated];
     [[self navigationController] setNavigationBarHidden:YES animated:NO];
+    self.percentage = 0;
+    self.timerLabel.text = [NSString stringWithFormat:@"%d", PRAYING_TIME - self.percentage];
     [self scheduleTimeoutTimer];
 }
 
@@ -58,7 +60,7 @@
     CGRect frame = _bottomNavBar.frame;
     frame.origin = CGPointZero;
     self.bottomNav = [[BottomNavBar alloc] initWithFrame:frame];
-    //[self.bottomNav setupAsTitleAndBackButton];
+    [self.bottomNav setupAsNormalPage];
     
     [self.bottomNav.backwardButton addTarget:self
                                       action:@selector(backwardButtonAction)

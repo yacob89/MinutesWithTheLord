@@ -36,6 +36,25 @@
 - (void)setupView
 {
     // Additional code
+    self.pauseButton.hidden = YES;
+    self.backwardButton.hidden = YES;
+    self.restartButton.hidden = YES;
+}
+
+- (void)setupAsNormalPage
+{
+    // Additional code
+    self.pauseButton.hidden = NO;
+    self.backwardButton.hidden = NO;
+    self.restartButton.hidden = YES;
+}
+
+- (void)setupAsEndPage
+{
+    // Additional code
+    self.pauseButton.hidden = YES;
+    self.backwardButton.hidden = YES;
+    self.restartButton.hidden = NO;
 }
 
 @end

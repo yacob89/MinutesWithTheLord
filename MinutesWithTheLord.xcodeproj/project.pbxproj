@@ -37,6 +37,8 @@
 		A73D30141918C70200D49646 /* ThanksgivingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A73D30121918C70200D49646 /* ThanksgivingViewController.xib */; };
 		A73D30181918C7D400D49646 /* PetitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A73D30161918C7D400D49646 /* PetitionViewController.m */; };
 		A73D30191918C7D400D49646 /* PetitionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A73D30171918C7D400D49646 /* PetitionViewController.xib */; };
+		A73D301D1918EE4100D49646 /* EndingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A73D301B1918EE4100D49646 /* EndingViewController.m */; };
+		A73D301E1918EE4100D49646 /* EndingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A73D301C1918EE4100D49646 /* EndingViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +95,9 @@
 		A73D30151918C7D400D49646 /* PetitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PetitionViewController.h; path = ViewControllers/PetitionViewController.h; sourceTree = "<group>"; };
 		A73D30161918C7D400D49646 /* PetitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PetitionViewController.m; path = ViewControllers/PetitionViewController.m; sourceTree = "<group>"; };
 		A73D30171918C7D400D49646 /* PetitionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PetitionViewController.xib; path = ViewControllers/PetitionViewController.xib; sourceTree = "<group>"; };
+		A73D301A1918EE4100D49646 /* EndingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EndingViewController.h; path = ViewControllers/EndingViewController.h; sourceTree = "<group>"; };
+		A73D301B1918EE4100D49646 /* EndingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EndingViewController.m; path = ViewControllers/EndingViewController.m; sourceTree = "<group>"; };
+		A73D301C1918EE4100D49646 /* EndingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EndingViewController.xib; path = ViewControllers/EndingViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,6 +223,9 @@
 				A73D30151918C7D400D49646 /* PetitionViewController.h */,
 				A73D30161918C7D400D49646 /* PetitionViewController.m */,
 				A73D30171918C7D400D49646 /* PetitionViewController.xib */,
+				A73D301A1918EE4100D49646 /* EndingViewController.h */,
+				A73D301B1918EE4100D49646 /* EndingViewController.m */,
+				A73D301C1918EE4100D49646 /* EndingViewController.xib */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -312,6 +320,7 @@
 				A73D2FF0191880E400D49646 /* MainViewController.xib in Resources */,
 				A73D2FFB19188E6900D49646 /* BottomNavBar.xib in Resources */,
 				A73D300A1918A03D00D49646 /* ConfessionViewController.xib in Resources */,
+				A73D301E1918EE4100D49646 /* EndingViewController.xib in Resources */,
 				A73D3000191895B400D49646 /* PrayingViewController.xib in Resources */,
 				A73D300519189E8600D49646 /* PrayReadingViewController.xib in Resources */,
 				A73D30191918C7D400D49646 /* PetitionViewController.xib in Resources */,
@@ -341,6 +350,7 @@
 				A73D2FEF191880E400D49646 /* MainViewController.m in Sources */,
 				A73D30181918C7D400D49646 /* PetitionViewController.m in Sources */,
 				A73D300E1918C4BC00D49646 /* ConsecrationViewController.m in Sources */,
+				A73D301D1918EE4100D49646 /* EndingViewController.m in Sources */,
 				A73D30091918A03D00D49646 /* ConfessionViewController.m in Sources */,
 				A73D30131918C70200D49646 /* ThanksgivingViewController.m in Sources */,
 				A73D2FFF191895B400D49646 /* PrayingViewController.m in Sources */,

@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A73D2FBD1918807F00D49646 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A73D2FBC1918807F00D49646 /* Foundation.framework */; };
+		A73D2FBF1918807F00D49646 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A73D2FBE1918807F00D49646 /* CoreGraphics.framework */; };
+		A73D2FC11918807F00D49646 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A73D2FC01918807F00D49646 /* UIKit.framework */; };
+		A73D2FC71918807F00D49646 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A73D2FC51918807F00D49646 /* InfoPlist.strings */; };
+		A73D2FC91918807F00D49646 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A73D2FC81918807F00D49646 /* main.m */; };
+		A73D2FCD1918807F00D49646 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A73D2FCC1918807F00D49646 /* AppDelegate.m */; };
+		A73D2FCF1918807F00D49646 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A73D2FCE1918807F00D49646 /* Images.xcassets */; };
+		A73D2FD61918807F00D49646 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A73D2FD51918807F00D49646 /* XCTest.framework */; };
+		A73D2FD71918807F00D49646 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A73D2FBC1918807F00D49646 /* Foundation.framework */; };
+		A73D2FD81918807F00D49646 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A73D2FC01918807F00D49646 /* UIKit.framework */; };
+		A73D2FE01918807F00D49646 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A73D2FDE1918807F00D49646 /* InfoPlist.strings */; };
+		A73D2FE21918807F00D49646 /* MinutesWithTheLordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A73D2FE11918807F00D49646 /* MinutesWithTheLordTests.m */; };
+		A73D2FEF191880E400D49646 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A73D2FED191880E400D49646 /* MainViewController.m */; };
+		A73D2FF0191880E400D49646 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A73D2FEE191880E400D49646 /* MainViewController.xib */; };
+		A73D2FF419188B9E00D49646 /* CallingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A73D2FF219188B9E00D49646 /* CallingViewController.m */; };
+		A73D2FF519188B9E00D49646 /* CallingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A73D2FF319188B9E00D49646 /* CallingViewController.xib */; };
+		A73D2FFA19188E6900D49646 /* BottomNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A73D2FF819188E6900D49646 /* BottomNavBar.m */; };
+		A73D2FFB19188E6900D49646 /* BottomNavBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = A73D2FF919188E6900D49646 /* BottomNavBar.xib */; };
+		A73D2FFF191895B400D49646 /* PrayingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A73D2FFD191895B400D49646 /* PrayingViewController.m */; };
+		A73D3000191895B400D49646 /* PrayingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A73D2FFE191895B400D49646 /* PrayingViewController.xib */; };
+		A73D300419189E8600D49646 /* PrayReadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A73D300219189E8600D49646 /* PrayReadingViewController.m */; };
+		A73D300519189E8600D49646 /* PrayReadingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A73D300319189E8600D49646 /* PrayReadingViewController.xib */; };
+		A73D30091918A03D00D49646 /* ConfessionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A73D30071918A03D00D49646 /* ConfessionViewController.m */; };
+		A73D300A1918A03D00D49646 /* ConfessionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A73D30081918A03D00D49646 /* ConfessionViewController.xib */; };
+		A73D300E1918C4BC00D49646 /* ConsecrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A73D300C1918C4BC00D49646 /* ConsecrationViewController.m */; };
+		A73D300F1918C4BC00D49646 /* ConsecrationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A73D300D1918C4BC00D49646 /* ConsecrationViewController.xib */; };
+		A73D30131918C70200D49646 /* ThanksgivingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A73D30111918C70200D49646 /* ThanksgivingViewController.m */; };
+		A73D30141918C70200D49646 /* ThanksgivingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A73D30121918C70200D49646 /* ThanksgivingViewController.xib */; };
+		A73D30181918C7D400D49646 /* PetitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A73D30161918C7D400D49646 /* PetitionViewController.m */; };
+		A73D30191918C7D400D49646 /* PetitionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A73D30171918C7D400D49646 /* PetitionViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A73D2FD91918807F00D49646 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A73D2FB11918807F00D49646 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A73D2FB81918807F00D49646;
+			remoteInfo = MinutesWithTheLord;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A73D2FB91918807F00D49646 /* MinutesWithTheLord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MinutesWithTheLord.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A73D2FBC1918807F00D49646 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A73D2FBE1918807F00D49646 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A73D2FC01918807F00D49646 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A73D2FC41918807F00D49646 /* MinutesWithTheLord-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MinutesWithTheLord-Info.plist"; sourceTree = "<group>"; };
+		A73D2FC61918807F00D49646 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A73D2FC81918807F00D49646 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A73D2FCA1918807F00D49646 /* MinutesWithTheLord-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MinutesWithTheLord-Prefix.pch"; sourceTree = "<group>"; };
+		A73D2FCB1918807F00D49646 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A73D2FCC1918807F00D49646 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A73D2FCE1918807F00D49646 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A73D2FD41918807F00D49646 /* MinutesWithTheLordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinutesWithTheLordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A73D2FD51918807F00D49646 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A73D2FDD1918807F00D49646 /* MinutesWithTheLordTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MinutesWithTheLordTests-Info.plist"; sourceTree = "<group>"; };
+		A73D2FDF1918807F00D49646 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A73D2FE11918807F00D49646 /* MinutesWithTheLordTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MinutesWithTheLordTests.m; sourceTree = "<group>"; };
+		A73D2FEC191880E400D49646 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ViewControllers/MainViewController.h; sourceTree = "<group>"; };
+		A73D2FED191880E400D49646 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ViewControllers/MainViewController.m; sourceTree = "<group>"; };
+		A73D2FEE191880E400D49646 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainViewController.xib; path = ViewControllers/MainViewController.xib; sourceTree = "<group>"; };
+		A73D2FF119188B9E00D49646 /* CallingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CallingViewController.h; path = ViewControllers/CallingViewController.h; sourceTree = "<group>"; };
+		A73D2FF219188B9E00D49646 /* CallingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CallingViewController.m; path = ViewControllers/CallingViewController.m; sourceTree = "<group>"; };
+		A73D2FF319188B9E00D49646 /* CallingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CallingViewController.xib; path = ViewControllers/CallingViewController.xib; sourceTree = "<group>"; };
+		A73D2FF719188E6900D49646 /* BottomNavBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BottomNavBar.h; path = ViewControllers/BottomNavBar.h; sourceTree = "<group>"; };
+		A73D2FF819188E6900D49646 /* BottomNavBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BottomNavBar.m; path = ViewControllers/BottomNavBar.m; sourceTree = "<group>"; };
+		A73D2FF919188E6900D49646 /* BottomNavBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BottomNavBar.xib; path = ViewControllers/BottomNavBar.xib; sourceTree = "<group>"; };
+		A73D2FFC191895B400D49646 /* PrayingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrayingViewController.h; path = ViewControllers/PrayingViewController.h; sourceTree = "<group>"; };
+		A73D2FFD191895B400D49646 /* PrayingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PrayingViewController.m; path = ViewControllers/PrayingViewController.m; sourceTree = "<group>"; };
+		A73D2FFE191895B400D49646 /* PrayingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PrayingViewController.xib; path = ViewControllers/PrayingViewController.xib; sourceTree = "<group>"; };
+		A73D300119189E8600D49646 /* PrayReadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrayReadingViewController.h; path = ViewControllers/PrayReadingViewController.h; sourceTree = "<group>"; };
+		A73D300219189E8600D49646 /* PrayReadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PrayReadingViewController.m; path = ViewControllers/PrayReadingViewController.m; sourceTree = "<group>"; };
+		A73D300319189E8600D49646 /* PrayReadingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PrayReadingViewController.xib; path = ViewControllers/PrayReadingViewController.xib; sourceTree = "<group>"; };
+		A73D30061918A03D00D49646 /* ConfessionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConfessionViewController.h; path = ViewControllers/ConfessionViewController.h; sourceTree = "<group>"; };
+		A73D30071918A03D00D49646 /* ConfessionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConfessionViewController.m; path = ViewControllers/ConfessionViewController.m; sourceTree = "<group>"; };
+		A73D30081918A03D00D49646 /* ConfessionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ConfessionViewController.xib; path = ViewControllers/ConfessionViewController.xib; sourceTree = "<group>"; };
+		A73D300B1918C4BC00D49646 /* ConsecrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConsecrationViewController.h; path = ViewControllers/ConsecrationViewController.h; sourceTree = "<group>"; };
+		A73D300C1918C4BC00D49646 /* ConsecrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConsecrationViewController.m; path = ViewControllers/ConsecrationViewController.m; sourceTree = "<group>"; };
+		A73D300D1918C4BC00D49646 /* ConsecrationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ConsecrationViewController.xib; path = ViewControllers/ConsecrationViewController.xib; sourceTree = "<group>"; };
+		A73D30101918C70200D49646 /* ThanksgivingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThanksgivingViewController.h; path = ViewControllers/ThanksgivingViewController.h; sourceTree = "<group>"; };
+		A73D30111918C70200D49646 /* ThanksgivingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThanksgivingViewController.m; path = ViewControllers/ThanksgivingViewController.m; sourceTree = "<group>"; };
+		A73D30121918C70200D49646 /* ThanksgivingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ThanksgivingViewController.xib; path = ViewControllers/ThanksgivingViewController.xib; sourceTree = "<group>"; };
+		A73D30151918C7D400D49646 /* PetitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PetitionViewController.h; path = ViewControllers/PetitionViewController.h; sourceTree = "<group>"; };
+		A73D30161918C7D400D49646 /* PetitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PetitionViewController.m; path = ViewControllers/PetitionViewController.m; sourceTree = "<group>"; };
+		A73D30171918C7D400D49646 /* PetitionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PetitionViewController.xib; path = ViewControllers/PetitionViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A73D2FB61918807F00D49646 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A73D2FBF1918807F00D49646 /* CoreGraphics.framework in Frameworks */,
+				A73D2FC11918807F00D49646 /* UIKit.framework in Frameworks */,
+				A73D2FBD1918807F00D49646 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A73D2FD11918807F00D49646 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A73D2FD61918807F00D49646 /* XCTest.framework in Frameworks */,
+				A73D2FD81918807F00D49646 /* UIKit.framework in Frameworks */,
+				A73D2FD71918807F00D49646 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A73D2FB01918807F00D49646 = {
+			isa = PBXGroup;
+			children = (
+				A73D2FC21918807F00D49646 /* MinutesWithTheLord */,
+				A73D2FDB1918807F00D49646 /* MinutesWithTheLordTests */,
+				A73D2FBB1918807F00D49646 /* Frameworks */,
+				A73D2FBA1918807F00D49646 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A73D2FBA1918807F00D49646 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A73D2FB91918807F00D49646 /* MinutesWithTheLord.app */,
+				A73D2FD41918807F00D49646 /* MinutesWithTheLordTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A73D2FBB1918807F00D49646 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A73D2FBC1918807F00D49646 /* Foundation.framework */,
+				A73D2FBE1918807F00D49646 /* CoreGraphics.framework */,
+				A73D2FC01918807F00D49646 /* UIKit.framework */,
+				A73D2FD51918807F00D49646 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A73D2FC21918807F00D49646 /* MinutesWithTheLord */ = {
+			isa = PBXGroup;
+			children = (
+				A73D2FEB191880B100D49646 /* ViewControllers */,
+				A73D2FCB1918807F00D49646 /* AppDelegate.h */,
+				A73D2FCC1918807F00D49646 /* AppDelegate.m */,
+				A73D2FCE1918807F00D49646 /* Images.xcassets */,
+				A73D2FC31918807F00D49646 /* Supporting Files */,
+			);
+			path = MinutesWithTheLord;
+			sourceTree = "<group>";
+		};
+		A73D2FC31918807F00D49646 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A73D2FC41918807F00D49646 /* MinutesWithTheLord-Info.plist */,
+				A73D2FC51918807F00D49646 /* InfoPlist.strings */,
+				A73D2FC81918807F00D49646 /* main.m */,
+				A73D2FCA1918807F00D49646 /* MinutesWithTheLord-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A73D2FDB1918807F00D49646 /* MinutesWithTheLordTests */ = {
+			isa = PBXGroup;
+			children = (
+				A73D2FE11918807F00D49646 /* MinutesWithTheLordTests.m */,
+				A73D2FDC1918807F00D49646 /* Supporting Files */,
+			);
+			path = MinutesWithTheLordTests;
+			sourceTree = "<group>";
+		};
+		A73D2FDC1918807F00D49646 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A73D2FDD1918807F00D49646 /* MinutesWithTheLordTests-Info.plist */,
+				A73D2FDE1918807F00D49646 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A73D2FEB191880B100D49646 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A73D2FF619188E4400D49646 /* CustomView */,
+				A73D2FEC191880E400D49646 /* MainViewController.h */,
+				A73D2FED191880E400D49646 /* MainViewController.m */,
+				A73D2FEE191880E400D49646 /* MainViewController.xib */,
+				A73D2FF119188B9E00D49646 /* CallingViewController.h */,
+				A73D2FF219188B9E00D49646 /* CallingViewController.m */,
+				A73D2FF319188B9E00D49646 /* CallingViewController.xib */,
+				A73D2FFC191895B400D49646 /* PrayingViewController.h */,
+				A73D2FFD191895B400D49646 /* PrayingViewController.m */,
+				A73D2FFE191895B400D49646 /* PrayingViewController.xib */,
+				A73D300119189E8600D49646 /* PrayReadingViewController.h */,
+				A73D300219189E8600D49646 /* PrayReadingViewController.m */,
+				A73D300319189E8600D49646 /* PrayReadingViewController.xib */,
+				A73D30061918A03D00D49646 /* ConfessionViewController.h */,
+				A73D30071918A03D00D49646 /* ConfessionViewController.m */,
+				A73D30081918A03D00D49646 /* ConfessionViewController.xib */,
+				A73D300B1918C4BC00D49646 /* ConsecrationViewController.h */,
+				A73D300C1918C4BC00D49646 /* ConsecrationViewController.m */,
+				A73D300D1918C4BC00D49646 /* ConsecrationViewController.xib */,
+				A73D30101918C70200D49646 /* ThanksgivingViewController.h */,
+				A73D30111918C70200D49646 /* ThanksgivingViewController.m */,
+				A73D30121918C70200D49646 /* ThanksgivingViewController.xib */,
+				A73D30151918C7D400D49646 /* PetitionViewController.h */,
+				A73D30161918C7D400D49646 /* PetitionViewController.m */,
+				A73D30171918C7D400D49646 /* PetitionViewController.xib */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A73D2FF619188E4400D49646 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				A73D2FF719188E6900D49646 /* BottomNavBar.h */,
+				A73D2FF819188E6900D49646 /* BottomNavBar.m */,
+				A73D2FF919188E6900D49646 /* BottomNavBar.xib */,
+			);
+			name = CustomView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A73D2FB81918807F00D49646 /* MinutesWithTheLord */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A73D2FE51918807F00D49646 /* Build configuration list for PBXNativeTarget "MinutesWithTheLord" */;
+			buildPhases = (
+				A73D2FB51918807F00D49646 /* Sources */,
+				A73D2FB61918807F00D49646 /* Frameworks */,
+				A73D2FB71918807F00D49646 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MinutesWithTheLord;
+			productName = MinutesWithTheLord;
+			productReference = A73D2FB91918807F00D49646 /* MinutesWithTheLord.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A73D2FD31918807F00D49646 /* MinutesWithTheLordTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A73D2FE81918807F00D49646 /* Build configuration list for PBXNativeTarget "MinutesWithTheLordTests" */;
+			buildPhases = (
+				A73D2FD01918807F00D49646 /* Sources */,
+				A73D2FD11918807F00D49646 /* Frameworks */,
+				A73D2FD21918807F00D49646 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A73D2FDA1918807F00D49646 /* PBXTargetDependency */,
+			);
+			name = MinutesWithTheLordTests;
+			productName = MinutesWithTheLordTests;
+			productReference = A73D2FD41918807F00D49646 /* MinutesWithTheLordTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A73D2FB11918807F00D49646 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = churchinbandung;
+				TargetAttributes = {
+					A73D2FD31918807F00D49646 = {
+						TestTargetID = A73D2FB81918807F00D49646;
+					};
+				};
+			};
+			buildConfigurationList = A73D2FB41918807F00D49646 /* Build configuration list for PBXProject "MinutesWithTheLord" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A73D2FB01918807F00D49646;
+			productRefGroup = A73D2FBA1918807F00D49646 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A73D2FB81918807F00D49646 /* MinutesWithTheLord */,
+				A73D2FD31918807F00D49646 /* MinutesWithTheLordTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A73D2FB71918807F00D49646 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A73D300F1918C4BC00D49646 /* ConsecrationViewController.xib in Resources */,
+				A73D2FC71918807F00D49646 /* InfoPlist.strings in Resources */,
+				A73D2FF0191880E400D49646 /* MainViewController.xib in Resources */,
+				A73D2FFB19188E6900D49646 /* BottomNavBar.xib in Resources */,
+				A73D300A1918A03D00D49646 /* ConfessionViewController.xib in Resources */,
+				A73D3000191895B400D49646 /* PrayingViewController.xib in Resources */,
+				A73D300519189E8600D49646 /* PrayReadingViewController.xib in Resources */,
+				A73D30191918C7D400D49646 /* PetitionViewController.xib in Resources */,
+				A73D30141918C70200D49646 /* ThanksgivingViewController.xib in Resources */,
+				A73D2FCF1918807F00D49646 /* Images.xcassets in Resources */,
+				A73D2FF519188B9E00D49646 /* CallingViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A73D2FD21918807F00D49646 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A73D2FE01918807F00D49646 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A73D2FB51918807F00D49646 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A73D2FFA19188E6900D49646 /* BottomNavBar.m in Sources */,
+				A73D2FCD1918807F00D49646 /* AppDelegate.m in Sources */,
+				A73D2FEF191880E400D49646 /* MainViewController.m in Sources */,
+				A73D30181918C7D400D49646 /* PetitionViewController.m in Sources */,
+				A73D300E1918C4BC00D49646 /* ConsecrationViewController.m in Sources */,
+				A73D30091918A03D00D49646 /* ConfessionViewController.m in Sources */,
+				A73D30131918C70200D49646 /* ThanksgivingViewController.m in Sources */,
+				A73D2FFF191895B400D49646 /* PrayingViewController.m in Sources */,
+				A73D300419189E8600D49646 /* PrayReadingViewController.m in Sources */,
+				A73D2FC91918807F00D49646 /* main.m in Sources */,
+				A73D2FF419188B9E00D49646 /* CallingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A73D2FD01918807F00D49646 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A73D2FE21918807F00D49646 /* MinutesWithTheLordTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A73D2FDA1918807F00D49646 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A73D2FB81918807F00D49646 /* MinutesWithTheLord */;
+			targetProxy = A73D2FD91918807F00D49646 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A73D2FC51918807F00D49646 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A73D2FC61918807F00D49646 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A73D2FDE1918807F00D49646 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A73D2FDF1918807F00D49646 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A73D2FE31918807F00D49646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A73D2FE41918807F00D49646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A73D2FE61918807F00D49646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MinutesWithTheLord/MinutesWithTheLord-Prefix.pch";
+				INFOPLIST_FILE = "MinutesWithTheLord/MinutesWithTheLord-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A73D2FE71918807F00D49646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MinutesWithTheLord/MinutesWithTheLord-Prefix.pch";
+				INFOPLIST_FILE = "MinutesWithTheLord/MinutesWithTheLord-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A73D2FE91918807F00D49646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MinutesWithTheLord.app/MinutesWithTheLord";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MinutesWithTheLord/MinutesWithTheLord-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MinutesWithTheLordTests/MinutesWithTheLordTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A73D2FEA1918807F00D49646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MinutesWithTheLord.app/MinutesWithTheLord";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MinutesWithTheLord/MinutesWithTheLord-Prefix.pch";
+				INFOPLIST_FILE = "MinutesWithTheLordTests/MinutesWithTheLordTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A73D2FB41918807F00D49646 /* Build configuration list for PBXProject "MinutesWithTheLord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A73D2FE31918807F00D49646 /* Debug */,
+				A73D2FE41918807F00D49646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A73D2FE51918807F00D49646 /* Build configuration list for PBXNativeTarget "MinutesWithTheLord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A73D2FE61918807F00D49646 /* Debug */,
+				A73D2FE71918807F00D49646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A73D2FE81918807F00D49646 /* Build configuration list for PBXNativeTarget "MinutesWithTheLordTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A73D2FE91918807F00D49646 /* Debug */,
+				A73D2FEA1918807F00D49646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A73D2FB11918807F00D49646 /* Project object */;
+}

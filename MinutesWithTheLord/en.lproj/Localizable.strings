@@ -1,0 +1,52 @@
+/* 
+  Localizable.strings
+  MinutesWithTheLord
+
+  Created by Maysora on 5/20/14.
+  Copyright (c) 2014 churchinbandung. All rights reserved.
+*/
+
+/* English (US) */
+
+"app_name" = "7 Minutes With The Lord";
+"action_settings" = "Settings";
+"start" = "START";
+"title" = "7 Minutes With The Lord";
+"exit" = "EXIT";
+
+"calling" = "Calling on the Name of the Lord";
+"calling_desc" = "Calling on the Name of the Lord to set our mind on the spirit - 1 Cor.12:3; Rom. 8:6; 10:12-13";
+"praying" = "Praying";
+"praying_desc" = "Opening our heart, softening our heart and emptying ourselves. Telling Him that we love Him - 2 Cor. 3:16; Psa. 62:8";
+"pray_reading" = "Pray-reading";
+"pray_reading_desc" = "Using our exercised spirit to pray over a verse or two. Turning the verses into a personal prayer - Eph. 6:17-18; 2 Tim. 3:16";
+"confession" = "Confession";
+"confession_desc" = "Confessing the sins and offenses on our conscience and removing all blockages to fellowship. Asking for forgiveness and cleansing - 1 John 1:7, 9; Psa. 66:18; Isa. 59:1-2";
+"consecration" = "Consecration";
+"consecration_desc" = "Presenting ourselves to the Lord afresh, giving Him the full ground in us - Rom. 12:1-2; 6:13,19; Mark 12:30";
+"thanksgiving" = "Thanksgiving";
+"thanksgiving_desc" = "Giving thanks for all things; for all the persons, situations and things in your life and praising Him - Eph. 5:20; 1 Thes. 5:18";
+"petition" = "Petition";
+"petition_desc" = "Asking the Lord for needs, growth and persons that need salvation - 1 Tim. 2:1: Eph. 6:18; Matt. 7:7; Psa. 143:8";
+
+"the_end" = "End";
+"halelujah" = "Hallelujah";
+"reset" = "RESTART";
+"stop" = "STOP";
+"forward" = "Forward";
+"backward" = "Backward";
+"pause" = "PAUSE";
+"unpause" = "CONTINUE";
+"desc" = "desc";
+
+"alert_message1" = "[Jesus] said...'So were you not able to watch with Me for ";
+"alert_message2" = "Watch and pray that you may not enter into temptation. The spirit is willing, but the flesh is weak.' (Matt. 26:40b-41)";
+"alert_message3" = "more minutes]?";
+
+"number_7" = "7";
+"number_65" = "6.5";
+"number_55" = "5.5";
+"number_3" = "3";
+"number_2" = "2";
+"number_15" = "1.5";
+"number_1" = "1";

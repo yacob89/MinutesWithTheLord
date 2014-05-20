@@ -41,6 +41,7 @@
 		A73D301E1918EE4100D49646 /* EndingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A73D301C1918EE4100D49646 /* EndingViewController.xib */; };
 		A7EFC72B192AF98D00DA6267 /* sirius.ogg in Resources */ = {isa = PBXBuildFile; fileRef = A7EFC72A192AF98D00DA6267 /* sirius.ogg */; };
 		A7EFC72D192AFAA400DA6267 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7EFC72C192AFAA400DA6267 /* AVFoundation.framework */; };
+		A7EFC73C192B656200DA6267 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7EFC73A192B656200DA6267 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +103,12 @@
 		A73D301C1918EE4100D49646 /* EndingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EndingViewController.xib; path = ViewControllers/EndingViewController.xib; sourceTree = "<group>"; };
 		A7EFC72A192AF98D00DA6267 /* sirius.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; name = sirius.ogg; path = Sounds/sirius.ogg; sourceTree = "<group>"; };
 		A7EFC72C192AFAA400DA6267 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A7EFC73B192B656200DA6267 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A7EFC73D192B657D00DA6267 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A7EFC73E192B658C00DA6267 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A7EFC73F192B659A00DA6267 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		A7EFC740192B65A500DA6267 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A7EFC741192B65C100DA6267 /* id-ID */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "id-ID"; path = "id-ID.lproj/Localizable.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +187,7 @@
 				A73D2FC51918807F00D49646 /* InfoPlist.strings */,
 				A73D2FC81918807F00D49646 /* main.m */,
 				A73D2FCA1918807F00D49646 /* MinutesWithTheLord-Prefix.pch */,
+				A7EFC73A192B656200DA6267 /* Localizable.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -313,6 +321,11 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				es,
+				de,
+				"zh-Hans",
+				ko,
+				"id-ID",
 			);
 			mainGroup = A73D2FB01918807F00D49646;
 			productRefGroup = A73D2FBA1918807F00D49646 /* Products */;
@@ -333,6 +346,7 @@
 				A73D300F1918C4BC00D49646 /* ConsecrationViewController.xib in Resources */,
 				A73D2FC71918807F00D49646 /* InfoPlist.strings in Resources */,
 				A73D2FF0191880E400D49646 /* MainViewController.xib in Resources */,
+				A7EFC73C192B656200DA6267 /* Localizable.strings in Resources */,
 				A73D2FFB19188E6900D49646 /* BottomNavBar.xib in Resources */,
 				A73D300A1918A03D00D49646 /* ConfessionViewController.xib in Resources */,
 				A73D301E1918EE4100D49646 /* EndingViewController.xib in Resources */,
@@ -409,6 +423,19 @@
 				A73D2FDF1918807F00D49646 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A7EFC73A192B656200DA6267 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7EFC73B192B656200DA6267 /* en */,
+				A7EFC73D192B657D00DA6267 /* es */,
+				A7EFC73E192B658C00DA6267 /* de */,
+				A7EFC73F192B659A00DA6267 /* zh-Hans */,
+				A7EFC740192B65A500DA6267 /* ko */,
+				A7EFC741192B65C100DA6267 /* id-ID */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

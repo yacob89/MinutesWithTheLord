@@ -39,6 +39,8 @@
 		A73D30191918C7D400D49646 /* PetitionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A73D30171918C7D400D49646 /* PetitionViewController.xib */; };
 		A73D301D1918EE4100D49646 /* EndingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A73D301B1918EE4100D49646 /* EndingViewController.m */; };
 		A73D301E1918EE4100D49646 /* EndingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A73D301C1918EE4100D49646 /* EndingViewController.xib */; };
+		A7EFC72B192AF98D00DA6267 /* sirius.ogg in Resources */ = {isa = PBXBuildFile; fileRef = A7EFC72A192AF98D00DA6267 /* sirius.ogg */; };
+		A7EFC72D192AFAA400DA6267 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7EFC72C192AFAA400DA6267 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,6 +100,8 @@
 		A73D301A1918EE4100D49646 /* EndingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EndingViewController.h; path = ViewControllers/EndingViewController.h; sourceTree = "<group>"; };
 		A73D301B1918EE4100D49646 /* EndingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EndingViewController.m; path = ViewControllers/EndingViewController.m; sourceTree = "<group>"; };
 		A73D301C1918EE4100D49646 /* EndingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EndingViewController.xib; path = ViewControllers/EndingViewController.xib; sourceTree = "<group>"; };
+		A7EFC72A192AF98D00DA6267 /* sirius.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; name = sirius.ogg; path = Sounds/sirius.ogg; sourceTree = "<group>"; };
+		A7EFC72C192AFAA400DA6267 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7EFC72D192AFAA400DA6267 /* AVFoundation.framework in Frameworks */,
 				A73D2FBF1918807F00D49646 /* CoreGraphics.framework in Frameworks */,
 				A73D2FC11918807F00D49646 /* UIKit.framework in Frameworks */,
 				A73D2FBD1918807F00D49646 /* Foundation.framework in Frameworks */,
@@ -146,6 +151,7 @@
 		A73D2FBB1918807F00D49646 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A7EFC72C192AFAA400DA6267 /* AVFoundation.framework */,
 				A73D2FBC1918807F00D49646 /* Foundation.framework */,
 				A73D2FBE1918807F00D49646 /* CoreGraphics.framework */,
 				A73D2FC01918807F00D49646 /* UIKit.framework */,
@@ -157,6 +163,7 @@
 		A73D2FC21918807F00D49646 /* MinutesWithTheLord */ = {
 			isa = PBXGroup;
 			children = (
+				A7EFC729192AF97E00DA6267 /* Sounds */,
 				A73D2FEB191880B100D49646 /* ViewControllers */,
 				A73D2FCB1918807F00D49646 /* AppDelegate.h */,
 				A73D2FCC1918807F00D49646 /* AppDelegate.m */,
@@ -238,6 +245,14 @@
 				A73D2FF919188E6900D49646 /* BottomNavBar.xib */,
 			);
 			name = CustomView;
+			sourceTree = "<group>";
+		};
+		A7EFC729192AF97E00DA6267 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				A7EFC72A192AF98D00DA6267 /* sirius.ogg */,
+			);
+			name = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -325,6 +340,7 @@
 				A73D300519189E8600D49646 /* PrayReadingViewController.xib in Resources */,
 				A73D30191918C7D400D49646 /* PetitionViewController.xib in Resources */,
 				A73D30141918C70200D49646 /* ThanksgivingViewController.xib in Resources */,
+				A7EFC72B192AF98D00DA6267 /* sirius.ogg in Resources */,
 				A73D2FCF1918807F00D49646 /* Images.xcassets in Resources */,
 				A73D2FF519188B9E00D49646 /* CallingViewController.xib in Resources */,
 			);
@@ -557,6 +573,7 @@
 				A73D2FE71918807F00D49646 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A73D2FE81918807F00D49646 /* Build configuration list for PBXNativeTarget "MinutesWithTheLordTests" */ = {
 			isa = XCConfigurationList;
@@ -565,6 +582,7 @@
 				A73D2FEA1918807F00D49646 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -6,12 +6,14 @@
 //  Copyright (c) 2014 churchinbandung. All rights reserved.
 //
 
+#import <AVFoundation/AVFoundation.h>
 #import "EndingViewController.h"
 #import "BottomNavBar.h"
 
 @interface EndingViewController ()
 
 @property (strong, nonatomic) BottomNavBar *bottomNav;
+@property (strong, nonatomic) AVAudioPlayer *player;
 
 @end
 
@@ -36,6 +38,12 @@
 {
     [super viewWillAppear:animated];
     [[self navigationController] setNavigationBarHidden:YES animated:NO];
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    [self.player play];
 }
 
 - (void)didReceiveMemoryWarning
@@ -63,6 +71,17 @@
 - (void)restartButtonAction
 {
     [self.navigationController popToRootViewControllerAnimated:YES];
+}
+
+- (void)prepareNotificationSound
+{
+    NSString *soundFilePath = [[NSBundle mainBundle] pathForResource:@"sirius"
+                                                              ofType:@"ogg"];
+    NSURL *soundFileURL = [NSURL fileURLWithPath:soundFilePath];
+    
+    self.player = [[AVAudioPlayer alloc] initWithContentsOfURL:soundFileURL
+                                                         error:nil];
+    self.player.numberOfLoops = 1; //Infinite
 }
 
 @end

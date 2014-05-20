@@ -6,6 +6,7 @@
 //  Copyright (c) 2014 churchinbandung. All rights reserved.
 //
 
+#import <AVFoundation/AVFoundation.h>
 #import "ConfessionViewController.h"
 #import "BottomNavBar.h"
 #import "ConsecrationViewController.h"
@@ -18,6 +19,7 @@
 @property (strong, nonatomic) NSTimer *timeoutTimer;
 @property (nonatomic) int percentage;
 @property (nonatomic) BOOL ispaused;
+@property (strong, nonatomic) AVAudioPlayer *player;
 
 @end
 
@@ -45,6 +47,12 @@
     self.percentage = 0;
     self.timerLabel.text = [NSString stringWithFormat:@"%d", CONFESSION_TIME - self.percentage];
     [self scheduleTimeoutTimer];
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    [self.player play];
 }
 
 - (void)didReceiveMemoryWarning
@@ -83,6 +91,17 @@
     else{
         _ispaused = NO;
     }
+}
+
+- (void)prepareNotificationSound
+{
+    NSString *soundFilePath = [[NSBundle mainBundle] pathForResource:@"sirius"
+                                                              ofType:@"ogg"];
+    NSURL *soundFileURL = [NSURL fileURLWithPath:soundFilePath];
+    
+    self.player = [[AVAudioPlayer alloc] initWithContentsOfURL:soundFileURL
+                                                         error:nil];
+    self.player.numberOfLoops = 1; //Infinite
 }
 
 #pragma mark - Timer Handler

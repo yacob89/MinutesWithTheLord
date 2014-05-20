@@ -49,31 +49,43 @@
 
 - (IBAction)indonesiaButtonTapped:(id)sender
 {
+    [[NSUserDefaults standardUserDefaults] setObject:[NSArray arrayWithObjects:@"en", nil] forKey:@"AppleLanguages"]; //switching to polish locale
+    [[NSUserDefaults standardUserDefaults] synchronize];
     [self.navigationController pushViewController:self.callVC animated:YES];
 }
 
 - (IBAction)chineseButtonTapped:(id)sender
 {
+    [[NSUserDefaults standardUserDefaults] setObject:[NSArray arrayWithObjects:@"en", nil] forKey:@"AppleLanguages"]; //switching to polish locale
+    [[NSUserDefaults standardUserDefaults] synchronize];
     [self.navigationController pushViewController:self.callVC animated:YES];
 }
 
 - (IBAction)germanButtonTapped:(id)sender
 {
+    [[NSUserDefaults standardUserDefaults] setObject:[NSArray arrayWithObjects:@"en", nil] forKey:@"AppleLanguages"]; //switching to polish locale
+    [[NSUserDefaults standardUserDefaults] synchronize];
     [self.navigationController pushViewController:self.callVC animated:YES];
 }
 
 - (IBAction)englishButtonTapped:(id)sender
 {
+    [[NSUserDefaults standardUserDefaults] setObject:[NSArray arrayWithObjects:@"en", nil] forKey:@"AppleLanguages"]; //switching to polish locale
+    [[NSUserDefaults standardUserDefaults] synchronize];
     [self.navigationController pushViewController:self.callVC animated:YES];
 }
 
 - (IBAction)koreanButtonTapped:(id)sender
 {
+    [[NSUserDefaults standardUserDefaults] setObject:[NSArray arrayWithObjects:@"en", nil] forKey:@"AppleLanguages"]; //switching to polish locale
+    [[NSUserDefaults standardUserDefaults] synchronize];
     [self.navigationController pushViewController:self.callVC animated:YES];
 }
 
 - (IBAction)spanishButtonTapped:(id)sender
 {
+    [[NSUserDefaults standardUserDefaults] setObject:[NSArray arrayWithObjects:@"en", nil] forKey:@"AppleLanguages"]; //switching to polish locale
+    [[NSUserDefaults standardUserDefaults] synchronize];
     [self.navigationController pushViewController:self.callVC animated:YES];
 }
 @end

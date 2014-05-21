@@ -14,34 +14,34 @@
 "title" = "7 Minutes With The Lord";
 "exit" = "EXIT";
 
-"calling" = "Calling on the Name of the Lord";
-"calling_desc" = "Calling on the Name of the Lord to set our mind on the spirit - 1 Cor.12:3; Rom. 8:6; 10:12-13";
-"praying" = "Praying";
-"praying_desc" = "Opening our heart, softening our heart and emptying ourselves. Telling Him that we love Him - 2 Cor. 3:16; Psa. 62:8";
-"pray_reading" = "Pray-reading";
-"pray_reading_desc" = "Using our exercised spirit to pray over a verse or two. Turning the verses into a personal prayer - Eph. 6:17-18; 2 Tim. 3:16";
-"confession" = "Confession";
-"confession_desc" = "Confessing the sins and offenses on our conscience and removing all blockages to fellowship. Asking for forgiveness and cleansing - 1 John 1:7, 9; Psa. 66:18; Isa. 59:1-2";
-"consecration" = "Consecration";
-"consecration_desc" = "Presenting ourselves to the Lord afresh, giving Him the full ground in us - Rom. 12:1-2; 6:13,19; Mark 12:30";
-"thanksgiving" = "Thanksgiving";
-"thanksgiving_desc" = "Giving thanks for all things; for all the persons, situations and things in your life and praising Him - Eph. 5:20; 1 Thes. 5:18";
-"petition" = "Petition";
-"petition_desc" = "Asking the Lord for needs, growth and persons that need salvation - 1 Tim. 2:1: Eph. 6:18; Matt. 7:7; Psa. 143:8";
+"calling" = "Berseru kepada nama Tuhan";
+"calling_desc" = "Berseru kepada nama Tuhan untuk mengarahkan pikiran kita pada roh - 1 Korintus 12:3; Roma 8:6; 10:12-13";
+"praying" = "Berdoa";
+"praying_desc" = "Membuka hati kita, melembutkan hati kita, dan mengosongkan diri kita. Memberitahu Dia bahwa kita mengasihi Dia - 2 Korintus 3:16; Mazmur 62:8";
+"pray_reading" = "Doa Baca";
+"pray_reading_desc" = "Memakai roh kita mendoakan 1&#8211;2 ayat. Mengubah ayat&#8211;ayat itu menjadi doa pribadi kita - Efesus 6:17-18; 2 Timotius 3:16";
+"confession" = "Mengaku Dosa";
+"confession_desc" = "Mengakui dosa-dosa dan pelanggaran-pelanggaran yang ada pada hati nurani kita dan menyingkirkan semua penghalang persekutuan. Memohon pengampunan dan pembasuhan - 1 Yohanes 1:7, 9; Mazmur 66:18; Yesaya 59:1-2";
+"consecration" = "Konsikrasi";
+"consecration_desc" = "Mempersembahkan diri kita kepada Tuhan dengan segar, memberi Dia landasan di dalam seluruh diri kita - Roma 12:1-2; 6:13,19; Markus 12:30";
+"thanksgiving" = "Mengucap Syukur";
+"thanksgiving_desc" = "Mengucap syukur untuk segala sesuatu; untuk semua orang, semua situasi, dan semua hal di dalam hidup Anda dan memuji Dia - Efesus 5:20; 1 Tesalonika 5:18";
+"petition" = "Doa Permohonan";
+"petition_desc" = "Memohon kepada Tuhan untuk semua kebutuhan kita, pertumbuhan kita, dan orang-orang yang memerlukan keselamatan - 1 Timotius 2:1: Efesus 6:18; Matius 7:7; Mazmur 143:8";
 
-"the_end" = "End";
-"halelujah" = "Hallelujah";
+"the_end" = "Selesai";
+"halelujah" = "Haleluya";
 "reset" = "RESTART";
 "stop" = "STOP";
-"forward" = "Forward";
-"backward" = "Backward";
+"forward" = "Maju";
+"backward" = "Kembali";
 "pause" = "PAUSE";
 "unpause" = "CONTINUE";
 "desc" = "desc";
 
-"alert_message1" = "[Jesus] said...'So were you not able to watch with Me for ";
-"alert_message2" = "Watch and pray that you may not enter into temptation. The spirit is willing, but the flesh is weak.' (Matt. 26:40b-41)";
-"alert_message3" = "more minutes]?";
+"alert_message1" = "[Yesus] berkata...'Tidakkah kamu sanggup berjaga-jaga ";
+"alert_message2" = "dengan Aku? Berjaga-jagalah dan berdoalah, supaya kamu jangan jatuh ke dalam pencobaan: roh memang penurut, tetapi daging itu lemah.' (Mat. 26:40b-41)";
+"alert_message3" = "menit lagi]?";
 
 "number_7" = "7";
 "number_65" = "6.5";

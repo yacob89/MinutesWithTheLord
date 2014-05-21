@@ -14,20 +14,20 @@
 "title" = "7 Minutes With The Lord";
 "exit" = "EXIT";
 
-"calling" = "Calling on the Name of the Lord";
-"calling_desc" = "Calling on the Name of the Lord to set our mind on the spirit - 1 Cor.12:3; Rom. 8:6; 10:12-13";
-"praying" = "Praying";
-"praying_desc" = "Opening our heart, softening our heart and emptying ourselves. Telling Him that we love Him - 2 Cor. 3:16; Psa. 62:8";
-"pray_reading" = "Pray-reading";
-"pray_reading_desc" = "Using our exercised spirit to pray over a verse or two. Turning the verses into a personal prayer - Eph. 6:17-18; 2 Tim. 3:16";
-"confession" = "Confession";
-"confession_desc" = "Confessing the sins and offenses on our conscience and removing all blockages to fellowship. Asking for forgiveness and cleansing - 1 John 1:7, 9; Psa. 66:18; Isa. 59:1-2";
-"consecration" = "Consecration";
-"consecration_desc" = "Presenting ourselves to the Lord afresh, giving Him the full ground in us - Rom. 12:1-2; 6:13,19; Mark 12:30";
-"thanksgiving" = "Thanksgiving";
-"thanksgiving_desc" = "Giving thanks for all things; for all the persons, situations and things in your life and praising Him - Eph. 5:20; 1 Thes. 5:18";
-"petition" = "Petition";
-"petition_desc" = "Asking the Lord for needs, growth and persons that need salvation - 1 Tim. 2:1: Eph. 6:18; Matt. 7:7; Psa. 143:8";
+"calling" = "Den Namen des Herrn anrufen";
+"calling_desc" = "Den Namen des Herrn anrufen um unser Verstand auf den Geist zu setzen - 1.Kor 12:3; Röm. 8:6; 10:12-13";
+"praying" = "Beten";
+"praying_desc" = "Unser Herz öffnen, es weichmachen und unser sein entleeren. Sag Ihm dass, wir Ihn lieben. - 2. Kor 3:16; Ps. 62:8";
+"pray_reading" = "Betenlesen";
+"pray_reading_desc" = "Benutz unseren geübten Geist um über einen Vers oder zwei Verse zu beten. Wende diese Verse ins persönliche Gebet an. - Eph. 6:17-18; 2.Tim 3:16";
+"confession" = "Sünden bekennen";
+"confession_desc" = "Die Sünden und Verstöße in unser Gewissen bekennen um alle Hindernisse zu einer Gemeinschaft zu beseitigen. Bitten um eine Vergebung und Reinigung. - 1.Joh 1:7, 9; Ps. 66:18; Jes. 59:1-2";
+"consecration" = "Sich hingeben";
+"consecration_desc" = "Sich dem Herrn erneut hingeben, Ihm den ganzen Boden in unser Sein hingeben. - Röm. 12:1-2; 6:13,19; Mk. 12:30";
+"thanksgiving" = "Danksagung";
+"thanksgiving_desc" = "Sag Dank im allen Dingen; für alle Personen, Situationen und Dingen in deinem Leben und loben Ihn. - Eph. 5:20; 1.Thes 5:18";
+"petition" = "Fürbitte";
+"petition_desc" = "Bittet dem Herrn um deine Bedürfnisse, deinen Wachstum und um Personen, die eine Errettung brauchen. - 1.Tim. 2:1: Eph. 6:18; Mt. 7:7; Ps. 143:8";
 
 "the_end" = "End";
 "halelujah" = "Hallelujah";
@@ -39,9 +39,9 @@
 "unpause" = "CONTINUE";
 "desc" = "desc";
 
-"alert_message1" = "[Jesus] said...'So were you not able to watch with Me for ";
-"alert_message2" = "Watch and pray that you may not enter into temptation. The spirit is willing, but the flesh is weak.' (Matt. 26:40b-41)";
-"alert_message3" = "more minutes]?";
+"alert_message1" = "[Jesus] sagte...'So könntet ihr nicht ";
+"alert_message2" = "mit Mir wachen? Wach und betet, damit ihr nicht in Versuchung geratet. Der Geist ist willig, aber das Fleisch ist schwach.' (Mt. 26:40b-41)";
+"alert_message3" = "Minuten länger]?";
 
 "number_7" = "7";
 "number_65" = "6.5";

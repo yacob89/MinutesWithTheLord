@@ -14,23 +14,23 @@
 "title" = "7 Minutes With The Lord";
 "exit" = "EXIT";
 
-"calling" = "Calling on the Name of the Lord";
-"calling_desc" = "Calling on the Name of the Lord to set our mind on the spirit - 1 Cor.12:3; Rom. 8:6; 10:12-13";
-"praying" = "Praying";
-"praying_desc" = "Opening our heart, softening our heart and emptying ourselves. Telling Him that we love Him - 2 Cor. 3:16; Psa. 62:8";
-"pray_reading" = "Pray-reading";
-"pray_reading_desc" = "Using our exercised spirit to pray over a verse or two. Turning the verses into a personal prayer - Eph. 6:17-18; 2 Tim. 3:16";
-"confession" = "Confession";
-"confession_desc" = "Confessing the sins and offenses on our conscience and removing all blockages to fellowship. Asking for forgiveness and cleansing - 1 John 1:7, 9; Psa. 66:18; Isa. 59:1-2";
-"consecration" = "Consecration";
-"consecration_desc" = "Presenting ourselves to the Lord afresh, giving Him the full ground in us - Rom. 12:1-2; 6:13,19; Mark 12:30";
-"thanksgiving" = "Thanksgiving";
-"thanksgiving_desc" = "Giving thanks for all things; for all the persons, situations and things in your life and praising Him - Eph. 5:20; 1 Thes. 5:18";
-"petition" = "Petition";
-"petition_desc" = "Asking the Lord for needs, growth and persons that need salvation - 1 Tim. 2:1: Eph. 6:18; Matt. 7:7; Psa. 143:8";
+"calling" = "呼求主名";
+"calling_desc" = "藉着呼求主名，将心思置於灵 - 林前十二:3; 罗八:6; 十:12-13";
+"praying" = "祷告";
+"praying_desc" = "敞开我们的心，软化我们的心并倒空自己，告诉祂：主阿！我爱你 - 林后三:16; 诗六十二:8";
+"pray_reading" = "祷读";
+"pray_reading_desc" = "用我们操练过的灵祷读一至二节，把所读的经节化为自己个人的祷告 - 弗六:17-18; 提后三:16";
+"confession" = "认罪";
+"confession_desc" = "凭着良心承认自己的罪与过犯，除去一切与主交通的拦阻，求主赦免并结净 - 约壹一:7, 9; 诗六十六:18; 赛五十九:1-2";
+"consecration" = "奉献";
+"consecration_desc" = "更新自己的奉献，并使祂在我们里面得着完全的地位 - 罗十二:1-2; 六:13,19; 可十二:30";
+"thanksgiving" = "感谢";
+"thanksgiving_desc" = "为着你在日常生活中的一切人，事，物，感 谢祂并赞美祂 - 弗五:20; 帖前五:18";
+"petition" = "祈求";
+"petition_desc" = "为着自己的需要，生命的长大，以及别人的得救，向主祈求 - 提前二:1: 弗六:18; 太七:7; 诗一百四十三:8";
 
-"the_end" = "End";
-"halelujah" = "Hallelujah";
+"the_end" = "结束";
+"halelujah" = "阿利路亚";
 "reset" = "RESTART";
 "stop" = "STOP";
 "forward" = "Forward";
@@ -39,14 +39,14 @@
 "unpause" = "CONTINUE";
 "desc" = "desc";
 
-"alert_message1" = "[Jesus] said...'So were you not able to watch with Me for ";
-"alert_message2" = "Watch and pray that you may not enter into temptation. The spirit is willing, but the flesh is weak.' (Matt. 26:40b-41)";
-"alert_message3" = "more minutes]?";
+"alert_message1" = "[耶稣]说...'你们不能同我儆醒 ";
+"alert_message2" = "么？要儆醒祷告，免得入了试诱，你们的灵固然愿意，肉体切软弱了。\' (太二十六:40下-41)";
+"alert_message3" = "分钟]?";
 
-"number_7" = "7";
-"number_65" = "6.5";
-"number_55" = "5.5";
-"number_3" = "3";
-"number_2" = "2";
-"number_15" = "1.5";
-"number_1" = "1";
+"number_7" = "七";
+"number_65" = "六.五";
+"number_55" = "五.五";
+"number_3" = "三";
+"number_2" = "二";
+"number_15" = "一.五";
+"number_1" = "一";

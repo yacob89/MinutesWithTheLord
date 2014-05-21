@@ -14,23 +14,23 @@
 "title" = "7 Minutes With The Lord";
 "exit" = "EXIT";
 
-"calling" = "Calling on the Name of the Lord";
-"calling_desc" = "Calling on the Name of the Lord to set our mind on the spirit - 1 Cor.12:3; Rom. 8:6; 10:12-13";
-"praying" = "Praying";
-"praying_desc" = "Opening our heart, softening our heart and emptying ourselves. Telling Him that we love Him - 2 Cor. 3:16; Psa. 62:8";
-"pray_reading" = "Pray-reading";
-"pray_reading_desc" = "Using our exercised spirit to pray over a verse or two. Turning the verses into a personal prayer - Eph. 6:17-18; 2 Tim. 3:16";
-"confession" = "Confession";
-"confession_desc" = "Confessing the sins and offenses on our conscience and removing all blockages to fellowship. Asking for forgiveness and cleansing - 1 John 1:7, 9; Psa. 66:18; Isa. 59:1-2";
-"consecration" = "Consecration";
-"consecration_desc" = "Presenting ourselves to the Lord afresh, giving Him the full ground in us - Rom. 12:1-2; 6:13,19; Mark 12:30";
-"thanksgiving" = "Thanksgiving";
-"thanksgiving_desc" = "Giving thanks for all things; for all the persons, situations and things in your life and praising Him - Eph. 5:20; 1 Thes. 5:18";
-"petition" = "Petition";
-"petition_desc" = "Asking the Lord for needs, growth and persons that need salvation - 1 Tim. 2:1: Eph. 6:18; Matt. 7:7; Psa. 143:8";
+"calling" = "Invocar el nombre del Señor";
+"calling_desc" = "Invocar el nombre del Señor para poner la mente en el espíritu - 1 Co.12:3; Rom. 8:6; 10:12-13";
+"praying" = "Orando";
+"praying_desc" = "Abrir nuestro corazón, suavizando nuestro corazón y vaciándonos. Diciéndole a El que lo amamos - 2 Co. 3:16; Sal. 62:8";
+"pray_reading" = "Orando-leyendo";
+"pray_reading_desc" = "Usar nuestro espíritu ejercitado para orar un versículo o dos. Tornar los versículos en una oración  personal - Ef. 6:17-18; 2 Tim. 3:16";
+"confession" = "Confesión";
+"confession_desc" = "Confesar los pecados y ofensas en nuestra conciencia y remover todo estorbo a la comunión. Buscar el perdón y limpieza - 1 Juan 1:7, 9; Sal. 66:18; Isa. 59:1-2";
+"consecration" = "Consagración";
+"consecration_desc" = "Presentarnos al Señor nuevamente, dándole todo el terreno en nosotros - Rom. 12:1-2; 6:13,19; Marc 12:30";
+"thanksgiving" = "Acción de gracias";
+"thanksgiving_desc" = "Dando gracias por todas las cosas; por todas las personas, situaciones y cosas en nuestra vida y alabándole a Él. - Ef. 5:20; 1 Tes. 5:18";
+"petition" = "Petición";
+"petition_desc" = "Pidiendo al Señor por nuestras necesidades, crecimiento y personas que necesitan salvación. - 1 Tim. 2:1: Ef. 6:18; Mat. 7:7; Sal. 143:8";
 
-"the_end" = "End";
-"halelujah" = "Hallelujah";
+"the_end" = "Fin";
+"halelujah" = "Aleluya";
 "reset" = "RESTART";
 "stop" = "STOP";
 "forward" = "Forward";
@@ -39,9 +39,9 @@
 "unpause" = "CONTINUE";
 "desc" = "desc";
 
-"alert_message1" = "[Jesus] said...'So were you not able to watch with Me for ";
-"alert_message2" = "Watch and pray that you may not enter into temptation. The spirit is willing, but the flesh is weak.' (Matt. 26:40b-41)";
-"alert_message3" = "more minutes]?";
+"alert_message1" = "[Jesús] dijo...'¿Así que no habéis podido velar conmigo  ";
+"alert_message2" = "Velad y orad, para que no entréis en tentación; el espíritu está dispuesto, pero la carne es débil.' (Mat. 26:40b-41)";
+"alert_message3" = "minutos mas]?";
 
 "number_7" = "7";
 "number_65" = "6.5";

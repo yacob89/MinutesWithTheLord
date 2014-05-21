@@ -14,23 +14,23 @@
 "title" = "7 Minutes With The Lord";
 "exit" = "EXIT";
 
-"calling" = "Calling on the Name of the Lord";
-"calling_desc" = "Calling on the Name of the Lord to set our mind on the spirit - 1 Cor.12:3; Rom. 8:6; 10:12-13";
-"praying" = "Praying";
-"praying_desc" = "Opening our heart, softening our heart and emptying ourselves. Telling Him that we love Him - 2 Cor. 3:16; Psa. 62:8";
-"pray_reading" = "Pray-reading";
-"pray_reading_desc" = "Using our exercised spirit to pray over a verse or two. Turning the verses into a personal prayer - Eph. 6:17-18; 2 Tim. 3:16";
-"confession" = "Confession";
-"confession_desc" = "Confessing the sins and offenses on our conscience and removing all blockages to fellowship. Asking for forgiveness and cleansing - 1 John 1:7, 9; Psa. 66:18; Isa. 59:1-2";
-"consecration" = "Consecration";
-"consecration_desc" = "Presenting ourselves to the Lord afresh, giving Him the full ground in us - Rom. 12:1-2; 6:13,19; Mark 12:30";
-"thanksgiving" = "Thanksgiving";
-"thanksgiving_desc" = "Giving thanks for all things; for all the persons, situations and things in your life and praising Him - Eph. 5:20; 1 Thes. 5:18";
+"calling" = "주님의 이름 부르기";
+"calling_desc" = "주의 이름을 불러 생각을 영으로 돌이킴- 고전12:3; 롬 8:6; 10:12-13";
+"praying" = "기도";
+"praying_desc" = "마음을 열고 부드럽게하여 자신을 비우고 주님을 사랑한다고 말함 – 고후 3:16; 시62:8";
+"pray_reading" = "기도로 말씀 읽기";
+"pray_reading_desc" = "훈련된 영을 사용하여 기도로 한  두 구절을 취하고 개인적인 기도로 적용 - 엡 6:17-18; 딤후 3:16";
+"confession" = "자백";
+"confession_desc" = "양심에서 죄들과 잘못을 자백하고 교통을 위해 모든 방해물을 제거하고 죄사함과 정결케함을 구함 - 요일 1:7, 9; 시 66:18; 사 59:1-2";
+"consecration" = "헌신";
+"consecration_desc" = "우리를 점유하시도록 우리 자신을 주님께 다시 드림 - 롬 12:1-2; 6:13,19; 막 12:30";
+"thanksgiving" = "감사";
+"thanksgiving_desc" = "모든 것, 모든 사람, 환경, 우리 생활의 모든 것에 감사와 찬양을 드리고 - 엡 5:20; 살전 5:18";
 "petition" = "Petition";
-"petition_desc" = "Asking the Lord for needs, growth and persons that need salvation - 1 Tim. 2:1: Eph. 6:18; Matt. 7:7; Psa. 143:8";
+"petition_desc" = "주님께 필요, 성장 그리고 구원이 필요한  사람을 구함 - 1 팀. 2:1: 엡 6:18; 마 7:7; 시 143:8";
 
-"the_end" = "End";
-"halelujah" = "Hallelujah";
+"the_end" = "끝";
+"halelujah" = "할렐루야";
 "reset" = "RESTART";
 "stop" = "STOP";
 "forward" = "Forward";
@@ -39,9 +39,9 @@
 "unpause" = "CONTINUE";
 "desc" = "desc";
 
-"alert_message1" = "[Jesus] said...'So were you not able to watch with Me for ";
-"alert_message2" = "Watch and pray that you may not enter into temptation. The spirit is willing, but the flesh is weak.' (Matt. 26:40b-41)";
-"alert_message3" = "more minutes]?";
+"alert_message1" = "예수께서 말씀하시기를...'이렇게 여러분이 나와 함께 ";
+"alert_message2" = "깨어 있을 수 없었습니까? 유혹에 빠지지 않도록 깨어 기도하십시오. 영은 원하지만 육체는 약합니다.' (마 26:40하-41)";
+"alert_message3" = "분만이라도]?";
 
 "number_7" = "7";
 "number_65" = "6.5";

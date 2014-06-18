@@ -43,6 +43,8 @@
 		A7B1E4F419518A30003EE972 /* NSBundle+TTTOverrideLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B1E4EF19518A30003EE972 /* NSBundle+TTTOverrideLanguage.m */; };
 		A7B1E4F519518A30003EE972 /* NSLocale+TTTOverrideLocale.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B1E4F119518A30003EE972 /* NSLocale+TTTOverrideLocale.m */; };
 		A7B1E4F619518A30003EE972 /* NSObject+TTTSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B1E4F319518A30003EE972 /* NSObject+TTTSwizzling.m */; };
+		A7B1E4FB19519334003EE972 /* LanguageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B1E4F919519334003EE972 /* LanguageCell.m */; };
+		A7B1E4FC19519334003EE972 /* LanguageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7B1E4FA19519334003EE972 /* LanguageCell.xib */; };
 		A7EFC72B192AF98D00DA6267 /* sirius.ogg in Resources */ = {isa = PBXBuildFile; fileRef = A7EFC72A192AF98D00DA6267 /* sirius.ogg */; };
 		A7EFC72D192AFAA400DA6267 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7EFC72C192AFAA400DA6267 /* AVFoundation.framework */; };
 		A7EFC73C192B656200DA6267 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7EFC73A192B656200DA6267 /* Localizable.strings */; };
@@ -115,6 +117,9 @@
 		A7B1E4F119518A30003EE972 /* NSLocale+TTTOverrideLocale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSLocale+TTTOverrideLocale.m"; path = "Helpers/NSLocale+TTTOverrideLocale.m"; sourceTree = "<group>"; };
 		A7B1E4F219518A30003EE972 /* NSObject+TTTSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+TTTSwizzling.h"; path = "Helpers/NSObject+TTTSwizzling.h"; sourceTree = "<group>"; };
 		A7B1E4F319518A30003EE972 /* NSObject+TTTSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+TTTSwizzling.m"; path = "Helpers/NSObject+TTTSwizzling.m"; sourceTree = "<group>"; };
+		A7B1E4F819519334003EE972 /* LanguageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LanguageCell.h; path = ViewControllers/LanguageCell.h; sourceTree = "<group>"; };
+		A7B1E4F919519334003EE972 /* LanguageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LanguageCell.m; path = ViewControllers/LanguageCell.m; sourceTree = "<group>"; };
+		A7B1E4FA19519334003EE972 /* LanguageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LanguageCell.xib; path = ViewControllers/LanguageCell.xib; sourceTree = "<group>"; };
 		A7EFC72A192AF98D00DA6267 /* sirius.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; name = sirius.ogg; path = Sounds/sirius.ogg; sourceTree = "<group>"; };
 		A7EFC72C192AFAA400DA6267 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		A7EFC73B192B656200DA6267 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -228,6 +233,7 @@
 		A73D2FEB191880B100D49646 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				A7B1E4F719519310003EE972 /* LanguageCell */,
 				A73D2FF619188E4400D49646 /* CustomView */,
 				A73D2FEC191880E400D49646 /* MainViewController.h */,
 				A73D2FED191880E400D49646 /* MainViewController.m */,
@@ -283,6 +289,16 @@
 				A7B1E4EC19517E0C003EE972 /* Alerts.m */,
 			);
 			name = Helpers;
+			sourceTree = "<group>";
+		};
+		A7B1E4F719519310003EE972 /* LanguageCell */ = {
+			isa = PBXGroup;
+			children = (
+				A7B1E4F819519334003EE972 /* LanguageCell.h */,
+				A7B1E4F919519334003EE972 /* LanguageCell.m */,
+				A7B1E4FA19519334003EE972 /* LanguageCell.xib */,
+			);
+			name = LanguageCell;
 			sourceTree = "<group>";
 		};
 		A7EFC729192AF97E00DA6267 /* Sounds */ = {
@@ -375,6 +391,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7B1E4FC19519334003EE972 /* LanguageCell.xib in Resources */,
 				A73D300F1918C4BC00D49646 /* ConsecrationViewController.xib in Resources */,
 				A73D2FC71918807F00D49646 /* InfoPlist.strings in Resources */,
 				A73D2FF0191880E400D49646 /* MainViewController.xib in Resources */,
@@ -421,6 +438,7 @@
 				A73D300419189E8600D49646 /* PrayReadingViewController.m in Sources */,
 				A73D2FC91918807F00D49646 /* main.m in Sources */,
 				A73D2FF419188B9E00D49646 /* CallingViewController.m in Sources */,
+				A7B1E4FB19519334003EE972 /* LanguageCell.m in Sources */,
 				A7B1E4F519518A30003EE972 /* NSLocale+TTTOverrideLocale.m in Sources */,
 				A7B1E4F419518A30003EE972 /* NSBundle+TTTOverrideLanguage.m in Sources */,
 			);

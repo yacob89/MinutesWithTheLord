@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MainViewController : UIViewController
+@interface MainViewController : UIViewController <UITableViewDataSource, UITableViewDataSource>
 
 @property (strong, nonatomic) IBOutlet UILabel *titleLabel;
 @property (strong, nonatomic) IBOutlet UIButton *indonesiaButton;
@@ -17,13 +17,7 @@
 @property (strong, nonatomic) IBOutlet UIButton *englishButton;
 @property (strong, nonatomic) IBOutlet UIButton *koreanButton;
 @property (strong, nonatomic) IBOutlet UIButton *spanishButton;
-
-- (IBAction)indonesiaButtonTapped:(id)sender;
-- (IBAction)chineseButtonTapped:(id)sender;
-- (IBAction)germanButtonTapped:(id)sender;
-- (IBAction)englishButtonTapped:(id)sender;
-- (IBAction)koreanButtonTapped:(id)sender;
-- (IBAction)spanishButtonTapped:(id)sender;
+@property (strong, nonatomic) IBOutlet UITableView *languageTable;
 
 
 @end

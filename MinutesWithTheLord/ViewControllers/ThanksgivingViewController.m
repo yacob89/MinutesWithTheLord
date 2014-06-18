@@ -46,6 +46,8 @@
     [[self navigationController] setNavigationBarHidden:YES animated:NO];
     self.percentage = 0;
     self.timerLabel.text = [NSString stringWithFormat:@"%d", THANKSGIVING_TIME - self.percentage];
+    self.activityTitle.text = NSLocalizedString(@"thanksgiving", nil);
+    self.activityDescription.text = NSLocalizedString(@"thanksgiving_desc", nil);
     [self scheduleTimeoutTimer];
 }
 
@@ -74,6 +76,7 @@
                                       action:@selector(backwardButtonAction)
                             forControlEvents:UIControlEventTouchUpInside];
     [self.bottomNav.pauseButton addTarget:self action:@selector(pauseButtonAction) forControlEvents:UIControlEventTouchUpInside];
+    [self.bottomNav.stopButton addTarget:self action:@selector(stopButtonAction) forControlEvents:UIControlEventTouchUpInside];
     
     [self.bottomNavBar addSubview:self.bottomNav];
 }
@@ -90,6 +93,34 @@
     }
     else{
         _ispaused = NO;
+    }
+}
+
+- (void)stopButtonAction
+{
+    [self pauseButtonAction];
+    NSString *stopAlert = [NSString stringWithFormat:@"%@ %@%d %@ %@", NSLocalizedString(@"alert_message1", nil), @"[", 7, NSLocalizedString(@"alert_message3", nil), NSLocalizedString(@"alert_message2", nil)];
+    UIAlertView *message = [[UIAlertView alloc] initWithTitle:@""
+                                                      message:stopAlert
+                                                     delegate:self
+                                            cancelButtonTitle:@"RESUME"
+                                            otherButtonTitles:@"STOP", nil];
+    message.delegate = self;
+    [message show];
+}
+
+#pragma mark - UIAlertView delegate methods
+
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+    if (buttonIndex != alertView.cancelButtonIndex) {
+        self.percentage = 0;
+        [self removeTimeoutTimer];
+        [self.navigationController popToRootViewControllerAnimated:YES];
+    }
+    else{
+        [self pauseButtonAction];
+        return;
     }
 }
 

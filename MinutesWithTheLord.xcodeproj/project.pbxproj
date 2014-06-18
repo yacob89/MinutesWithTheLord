@@ -39,6 +39,10 @@
 		A73D30191918C7D400D49646 /* PetitionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A73D30171918C7D400D49646 /* PetitionViewController.xib */; };
 		A73D301D1918EE4100D49646 /* EndingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A73D301B1918EE4100D49646 /* EndingViewController.m */; };
 		A73D301E1918EE4100D49646 /* EndingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A73D301C1918EE4100D49646 /* EndingViewController.xib */; };
+		A7B1E4ED19517E0C003EE972 /* Alerts.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B1E4EC19517E0C003EE972 /* Alerts.m */; };
+		A7B1E4F419518A30003EE972 /* NSBundle+TTTOverrideLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B1E4EF19518A30003EE972 /* NSBundle+TTTOverrideLanguage.m */; };
+		A7B1E4F519518A30003EE972 /* NSLocale+TTTOverrideLocale.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B1E4F119518A30003EE972 /* NSLocale+TTTOverrideLocale.m */; };
+		A7B1E4F619518A30003EE972 /* NSObject+TTTSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B1E4F319518A30003EE972 /* NSObject+TTTSwizzling.m */; };
 		A7EFC72B192AF98D00DA6267 /* sirius.ogg in Resources */ = {isa = PBXBuildFile; fileRef = A7EFC72A192AF98D00DA6267 /* sirius.ogg */; };
 		A7EFC72D192AFAA400DA6267 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7EFC72C192AFAA400DA6267 /* AVFoundation.framework */; };
 		A7EFC73C192B656200DA6267 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7EFC73A192B656200DA6267 /* Localizable.strings */; };
@@ -103,6 +107,14 @@
 		A73D301C1918EE4100D49646 /* EndingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EndingViewController.xib; path = ViewControllers/EndingViewController.xib; sourceTree = "<group>"; };
 		A7B1E4E819514363003EE972 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A7B1E4E919514371003EE972 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		A7B1E4EB19517E0C003EE972 /* Alerts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Alerts.h; path = Helpers/Alerts.h; sourceTree = "<group>"; };
+		A7B1E4EC19517E0C003EE972 /* Alerts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Alerts.m; path = Helpers/Alerts.m; sourceTree = "<group>"; };
+		A7B1E4EE19518A30003EE972 /* NSBundle+TTTOverrideLanguage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSBundle+TTTOverrideLanguage.h"; path = "Helpers/NSBundle+TTTOverrideLanguage.h"; sourceTree = "<group>"; };
+		A7B1E4EF19518A30003EE972 /* NSBundle+TTTOverrideLanguage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+TTTOverrideLanguage.m"; path = "Helpers/NSBundle+TTTOverrideLanguage.m"; sourceTree = "<group>"; };
+		A7B1E4F019518A30003EE972 /* NSLocale+TTTOverrideLocale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSLocale+TTTOverrideLocale.h"; path = "Helpers/NSLocale+TTTOverrideLocale.h"; sourceTree = "<group>"; };
+		A7B1E4F119518A30003EE972 /* NSLocale+TTTOverrideLocale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSLocale+TTTOverrideLocale.m"; path = "Helpers/NSLocale+TTTOverrideLocale.m"; sourceTree = "<group>"; };
+		A7B1E4F219518A30003EE972 /* NSObject+TTTSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+TTTSwizzling.h"; path = "Helpers/NSObject+TTTSwizzling.h"; sourceTree = "<group>"; };
+		A7B1E4F319518A30003EE972 /* NSObject+TTTSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+TTTSwizzling.m"; path = "Helpers/NSObject+TTTSwizzling.m"; sourceTree = "<group>"; };
 		A7EFC72A192AF98D00DA6267 /* sirius.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; name = sirius.ogg; path = Sounds/sirius.ogg; sourceTree = "<group>"; };
 		A7EFC72C192AFAA400DA6267 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		A7EFC73B192B656200DA6267 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -172,6 +184,7 @@
 		A73D2FC21918807F00D49646 /* MinutesWithTheLord */ = {
 			isa = PBXGroup;
 			children = (
+				A7B1E4EA19517D9D003EE972 /* Helpers */,
 				A7EFC729192AF97E00DA6267 /* Sounds */,
 				A73D2FEB191880B100D49646 /* ViewControllers */,
 				A73D2FCB1918807F00D49646 /* AppDelegate.h */,
@@ -255,6 +268,21 @@
 				A73D2FF919188E6900D49646 /* BottomNavBar.xib */,
 			);
 			name = CustomView;
+			sourceTree = "<group>";
+		};
+		A7B1E4EA19517D9D003EE972 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A7B1E4EE19518A30003EE972 /* NSBundle+TTTOverrideLanguage.h */,
+				A7B1E4EF19518A30003EE972 /* NSBundle+TTTOverrideLanguage.m */,
+				A7B1E4F019518A30003EE972 /* NSLocale+TTTOverrideLocale.h */,
+				A7B1E4F119518A30003EE972 /* NSLocale+TTTOverrideLocale.m */,
+				A7B1E4F219518A30003EE972 /* NSObject+TTTSwizzling.h */,
+				A7B1E4F319518A30003EE972 /* NSObject+TTTSwizzling.m */,
+				A7B1E4EB19517E0C003EE972 /* Alerts.h */,
+				A7B1E4EC19517E0C003EE972 /* Alerts.m */,
+			);
+			name = Helpers;
 			sourceTree = "<group>";
 		};
 		A7EFC729192AF97E00DA6267 /* Sounds */ = {
@@ -380,6 +408,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A73D2FFA19188E6900D49646 /* BottomNavBar.m in Sources */,
+				A7B1E4ED19517E0C003EE972 /* Alerts.m in Sources */,
+				A7B1E4F619518A30003EE972 /* NSObject+TTTSwizzling.m in Sources */,
 				A73D2FCD1918807F00D49646 /* AppDelegate.m in Sources */,
 				A73D2FEF191880E400D49646 /* MainViewController.m in Sources */,
 				A73D30181918C7D400D49646 /* PetitionViewController.m in Sources */,
@@ -391,6 +421,8 @@
 				A73D300419189E8600D49646 /* PrayReadingViewController.m in Sources */,
 				A73D2FC91918807F00D49646 /* main.m in Sources */,
 				A73D2FF419188B9E00D49646 /* CallingViewController.m in Sources */,
+				A7B1E4F519518A30003EE972 /* NSLocale+TTTOverrideLocale.m in Sources */,
+				A7B1E4F419518A30003EE972 /* NSBundle+TTTOverrideLanguage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

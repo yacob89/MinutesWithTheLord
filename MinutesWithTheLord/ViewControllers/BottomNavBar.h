@@ -14,6 +14,7 @@
 @property (strong, nonatomic) IBOutlet UIButton *pauseButton;
 @property (strong, nonatomic) IBOutlet UIButton *backwardButton;
 @property (strong, nonatomic) IBOutlet UIButton *restartButton;
+@property (strong, nonatomic) IBOutlet UIButton *stopButton;
 
 - (void)setupAsNormalPage;
 - (void)setupAsEndPage;

@@ -9,6 +9,7 @@
                 <outlet property="backwardButton" destination="YeL-l2-pbi" id="m5J-27-C5f"/>
                 <outlet property="pauseButton" destination="fZg-ma-Iy2" id="oVX-CY-4mD"/>
                 <outlet property="restartButton" destination="aD9-nt-Ch7" id="d1y-65-3Ul"/>
+                <outlet property="stopButton" destination="E2L-ps-8h8" id="PeY-RT-9TK"/>
                 <outlet property="view" destination="1" id="Aco-Nx-ygN"/>
             </connections>
         </placeholder>
@@ -22,6 +23,15 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
                     <state key="normal" title="Pause">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="E2L-ps-8h8" userLabel="Button - Stop">
+                    <rect key="frame" x="239" y="10" width="81" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
+                    <state key="normal" title="Stop">
                         <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>

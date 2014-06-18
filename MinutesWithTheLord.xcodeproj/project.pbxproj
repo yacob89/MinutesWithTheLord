@@ -101,6 +101,8 @@
 		A73D301A1918EE4100D49646 /* EndingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EndingViewController.h; path = ViewControllers/EndingViewController.h; sourceTree = "<group>"; };
 		A73D301B1918EE4100D49646 /* EndingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EndingViewController.m; path = ViewControllers/EndingViewController.m; sourceTree = "<group>"; };
 		A73D301C1918EE4100D49646 /* EndingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EndingViewController.xib; path = ViewControllers/EndingViewController.xib; sourceTree = "<group>"; };
+		A7B1E4E819514363003EE972 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A7B1E4E919514371003EE972 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		A7EFC72A192AF98D00DA6267 /* sirius.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; name = sirius.ogg; path = Sounds/sirius.ogg; sourceTree = "<group>"; };
 		A7EFC72C192AFAA400DA6267 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		A7EFC73B192B656200DA6267 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -326,6 +328,8 @@
 				"zh-Hans",
 				ko,
 				"id-ID",
+				pt,
+				"zh-Hant",
 			);
 			mainGroup = A73D2FB01918807F00D49646;
 			productRefGroup = A73D2FBA1918807F00D49646 /* Products */;
@@ -434,6 +438,8 @@
 				A7EFC73F192B659A00DA6267 /* zh-Hans */,
 				A7EFC740192B65A500DA6267 /* ko */,
 				A7EFC741192B65C100DA6267 /* id-ID */,
+				A7B1E4E819514363003EE972 /* pt */,
+				A7B1E4E919514371003EE972 /* zh-Hant */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";

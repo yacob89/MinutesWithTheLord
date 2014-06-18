@@ -1,0 +1,52 @@
+/* 
+  Localizable.strings
+  MinutesWithTheLord
+
+  Created by Maysora on 5/20/14.
+  Copyright (c) 2014 churchinbandung. All rights reserved.
+*/
+
+/* English (US) */
+
+"app_name" = "7 Minutes With The Lord";
+"action_settings" = "Settings";
+"start" = "START";
+"title" = "7 Minutes With The Lord";
+"exit" = "EXIT";
+
+"calling" = "呼求主名";
+"calling_desc" = "藉着呼求主名，將心思置於靈 - 林前十二3; 羅八6; 十12-13";
+"praying" = "禱告";
+"praying_desc" = "敞開我們的心，輭化我們的心並倒空自己，告訴祂: 主阿！我愛你 - 林後三16; 詩六十二8";
+"pray_reading" = "禱讀";
+"pray_reading_desc" = "用我們操練過的靈禱讀一至二節, 把所讀的經節化爲自己個人的禱告 - 弗六17-18；提後三16";
+"confession" = "認罪";
+"confession_desc" = "憑着良心承認自己的罪與過犯，除去一切與主交通的攔阻，求主赦免並潔凈 - 約壹一7,9；詩六十六18；賽五十九1-2";
+"consecration" = "奉獻";
+"consecration_desc" = "更新自己的奉獻，並使祂在我們裏面得着完全的地位 - 羅十二1-2；六13,19；可十二30";
+"thanksgiving" = "感謝";
+"thanksgiving_desc" = "爲着你在曰常生活中的一切人，事，物，感謝祂並讚美祂 - 弗五20；帖前五18";
+"petition" = "祈求";
+"petition_desc" = "爲着自己的需要，生命的長大，以及别人的得救，向主祈求 - 提前二1；弗六18；太七7；詩一百四十三8";
+
+"the_end" = "結束";
+"halelujah" = "阿利路亞";
+"reset" = "RESTART";
+"stop" = "STOP";
+"forward" = "Forward";
+"backward" = "Backward";
+"pause" = "PAUSE";
+"unpause" = "CONTINUE";
+"desc" = "desc";
+
+"alert_message1" = "〔耶穌〕説...“你們不能同我儆醒 ";
+"alert_message2" = "麽？要儆醒禱告，免得入了試誘，你們的靈固然願意，肉體卻輭弱了。“(太二十六40下 -41)";
+"alert_message3" = "分鐘〕";
+
+"number_7" = "七";
+"number_65" = "六,五";
+"number_55" = "五,五";
+"number_3" = "三";
+"number_2" = "二";
+"number_15" = "一,五";
+"number_1" = "一";

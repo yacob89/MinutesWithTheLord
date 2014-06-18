@@ -1,0 +1,53 @@
+/*
+ Localizable.strings
+ MinutesWithTheLord
+ 
+ Created by Maysora on 5/20/14.
+ Copyright (c) 2014 churchinbandung. All rights reserved.
+ */
+
+/* Portuguese */
+
+"app_name" = "7 Minutes With The Lord";
+"action_settings" = "Settings";
+"start" = "START";
+"title" = "7 Minutes With The Lord";
+"exit" = "EXIT";
+
+"calling" = "Invocar o nome do Senhor";
+"calling_desc" = "Invocar o nome do Senhor para nos ajudar a colocar nossa mente no espírito - 1Co 12:3; Rm 8:6; 10:12-13";
+"praying" = "Orar";
+"praying_desc" = "Abrir o nosso coração, amolecê-lo e esvaziar-nos. Dizer-Lhe que O amamos - 2Co 3:16; Sl 62:8";
+"pray_reading" = "Orar-ler";
+"pray_reading_desc" = "Usar nosso espírito exercitado para orar sobre um ou dois versículos. Transformar os versículos em uma oração pessoal - Ef 6:17-18; 2Tm 3:16";
+"confession" = "Confessar";
+"confession_desc" = "Confessar os pecados e ofensas em nossa consciência e remover todas as barreiras à comunhão. Pedir perdão e purificação - 1Jo 1:7, 9; Sl 66:18; Is 59:1-2";
+"consecration" = "Consagrar";
+"consecration_desc" = "Apresentar-nos ao Senhor de modo fresco, dando-Lhe todo o terreno em nós - Rm 12:1-2; 6:13,19; Mc 12:30";
+"thanksgiving" = "Agradecer";
+"thanksgiving_desc" = "Dar graças por todas as coisas; por todas as pessoas, situações e coisas em sua vida e louvá-Lo – Ef 5:20; 1Ts 5:18";
+"petition" = "Pedir";
+"petition_desc" = "Pedir ao Senhor por necessidades, crescimento e por pessoas que precisam de salvação – 1Tm 2:1; Ef 6:18; Mt 7:7; Sl 143:8";
+
+"the_end" = "Fim";
+"halelujah" = "Aleluia";
+"reset" = "RESTART";
+"stop" = "STOP";
+"forward" = "Forward";
+"backward" = "Backward";
+"pause" = "PAUSE";
+"unpause" = "CONTINUE";
+"desc" = "desc";
+
+"alert_message1" = "[Jesus] disse: ... 'Então não fostes capazes de vigiar Comigo nem por ";
+"alert_message2" = "Vigiai e orai, para que não entreis em tentação; o espírito está disposto, mas a carne é fraca. '(Mt 26:40b-41)";
+"alert_message3" = "[mais ";
+"alert_message4" = "minutos]? ";
+
+"number_7" = "7";
+"number_65" = "6.5";
+"number_55" = "5.5";
+"number_3" = "3";
+"number_2" = "2";
+"number_15" = "1.5";
+"number_1" = "1";

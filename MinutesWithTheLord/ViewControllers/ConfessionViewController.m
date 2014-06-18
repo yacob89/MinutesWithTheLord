@@ -75,6 +75,8 @@
     [self.bottomNav.backwardButton addTarget:self
                                       action:@selector(backwardButtonAction)
                             forControlEvents:UIControlEventTouchUpInside];
+    [self.bottomNav.pauseButton setTitle:@"PAUSE" forState:UIControlStateNormal];
+    [self.bottomNav.pauseButton setTitle:@"RESUME" forState:UIControlStateSelected];
     [self.bottomNav.pauseButton addTarget:self action:@selector(pauseButtonAction) forControlEvents:UIControlEventTouchUpInside];
     [self.bottomNav.stopButton addTarget:self action:@selector(stopButtonAction) forControlEvents:UIControlEventTouchUpInside];
     
@@ -90,9 +92,11 @@
 {
     if (!_ispaused) {
         _ispaused = YES;
+        self.bottomNav.pauseButton.selected = YES;
     }
     else{
         _ispaused = NO;
+        self.bottomNav.pauseButton.selected = NO;
     }
 }
 

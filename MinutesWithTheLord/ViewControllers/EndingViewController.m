@@ -32,12 +32,16 @@
 {
     [super viewDidLoad];
     [self prepareBottomNav];
+    [self prepareNotificationSound];
 }
 
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
     [[self navigationController] setNavigationBarHidden:YES animated:NO];
+    
+    self.activityTitle.text = NSLocalizedString(@"the_end", nil);
+    self.timerLabel.text = NSLocalizedString(@"halelujah", nil);
 }
 
 - (void)viewDidAppear:(BOOL)animated
@@ -75,8 +79,8 @@
 
 - (void)prepareNotificationSound
 {
-    NSString *soundFilePath = [[NSBundle mainBundle] pathForResource:@"sirius"
-                                                              ofType:@"ogg"];
+    NSString *soundFilePath = [[NSBundle mainBundle] pathForResource:@"alarm2"
+                                                              ofType:@"mp3"];
     NSURL *soundFileURL = [NSURL fileURLWithPath:soundFilePath];
     
     self.player = [[AVAudioPlayer alloc] initWithContentsOfURL:soundFileURL

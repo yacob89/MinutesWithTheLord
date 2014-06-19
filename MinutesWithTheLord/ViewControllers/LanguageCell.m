@@ -56,7 +56,7 @@
 
 - (void)setupAsChinese
 {
-    [self.languageButton setTitle:@"Chinese" forState:UIControlStateNormal];
+    [self.languageButton setTitle:@"中文(简体)" forState:UIControlStateNormal];
     self.languageButton.backgroundColor = [self colorWithHexString:@"6633FF"];
     [self.languageButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
 }
@@ -77,14 +77,14 @@
 
 - (void)setupAsKorean
 {
-    [self.languageButton setTitle:@"Korean" forState:UIControlStateNormal];
+    [self.languageButton setTitle:@"한국어" forState:UIControlStateNormal];
     self.languageButton.backgroundColor = [self colorWithHexString:@"66CCFF"];
     [self.languageButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
 }
 
 - (void)setupAsTraditionalChinese
 {
-    [self.languageButton setTitle:@"Chinese" forState:UIControlStateNormal];
+    [self.languageButton setTitle:@"中文(繁體)" forState:UIControlStateNormal];
     self.languageButton.backgroundColor = [self colorWithHexString:@"6600FF"];
     [self.languageButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
 }

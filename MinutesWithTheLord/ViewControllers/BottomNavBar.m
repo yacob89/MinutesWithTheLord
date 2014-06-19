@@ -55,6 +55,7 @@
     self.pauseButton.hidden = YES;
     self.backwardButton.hidden = YES;
     self.restartButton.hidden = NO;
+    self.stopButton.hidden = YES;
 }
 
 @end

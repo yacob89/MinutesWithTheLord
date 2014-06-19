@@ -38,6 +38,7 @@
 {
     [super viewDidLoad];
     [self prepareBottomNav];
+    [self prepareNotificationSound];
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -133,8 +134,8 @@
 
 - (void)prepareNotificationSound
 {
-    NSString *soundFilePath = [[NSBundle mainBundle] pathForResource:@"sirius"
-                                                              ofType:@"ogg"];
+    NSString *soundFilePath = [[NSBundle mainBundle] pathForResource:@"alarm2"
+                                                              ofType:@"mp3"];
     NSURL *soundFileURL = [NSURL fileURLWithPath:soundFilePath];
     
     self.player = [[AVAudioPlayer alloc] initWithContentsOfURL:soundFileURL

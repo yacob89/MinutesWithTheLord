@@ -71,7 +71,7 @@
 - (void)setupAsSpanish
 {
     [self.languageButton setTitle:@"Spanish" forState:UIControlStateNormal];
-    self.languageButton.backgroundColor = [self colorWithHexString:@"66FFFF"];
+    self.languageButton.backgroundColor = [self colorWithHexString:@"99FFFF"];
     [self.languageButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
 }
 
@@ -92,8 +92,8 @@
 - (void)setupAsPortuguese
 {
     [self.languageButton setTitle:@"Portuguese" forState:UIControlStateNormal];
-    self.languageButton.backgroundColor = [self colorWithHexString:@"6600FF"];
-    [self.languageButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    self.languageButton.backgroundColor = [self colorWithHexString:@"66FFFF"];
+    [self.languageButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
 }
 
 -(UIColor*)colorWithHexString:(NSString*)hex

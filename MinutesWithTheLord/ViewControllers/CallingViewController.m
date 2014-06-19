@@ -143,13 +143,13 @@
 
 - (void)prepareNotificationSound
 {
-    NSString *soundFilePath = [[NSBundle mainBundle] pathForResource:@"alarm2"
+    NSString *soundFilePath = [[NSBundle mainBundle] pathForResource:@"alarm3"
                                                               ofType:@"mp3"];
     NSURL *soundFileURL = [NSURL fileURLWithPath:soundFilePath];
     
     self.player = [[AVAudioPlayer alloc] initWithContentsOfURL:soundFileURL
                                                                    error:nil];
-    self.player.numberOfLoops = 1; //Infinite
+    self.player.numberOfLoops = 0; //Infinite
 }
 
 #pragma mark - Timer Handler

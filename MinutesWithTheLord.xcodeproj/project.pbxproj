@@ -39,7 +39,7 @@
 		A73D30191918C7D400D49646 /* PetitionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A73D30171918C7D400D49646 /* PetitionViewController.xib */; };
 		A73D301D1918EE4100D49646 /* EndingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A73D301B1918EE4100D49646 /* EndingViewController.m */; };
 		A73D301E1918EE4100D49646 /* EndingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A73D301C1918EE4100D49646 /* EndingViewController.xib */; };
-		A74B276E1952CC2C00AF3A7E /* alarm2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A74B276D1952CC2C00AF3A7E /* alarm2.mp3 */; };
+		A74B27701952D72200AF3A7E /* alarm3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A74B276F1952D72200AF3A7E /* alarm3.mp3 */; };
 		A7B1E4ED19517E0C003EE972 /* Alerts.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B1E4EC19517E0C003EE972 /* Alerts.m */; };
 		A7B1E4F419518A30003EE972 /* NSBundle+TTTOverrideLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B1E4EF19518A30003EE972 /* NSBundle+TTTOverrideLanguage.m */; };
 		A7B1E4F519518A30003EE972 /* NSLocale+TTTOverrideLocale.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B1E4F119518A30003EE972 /* NSLocale+TTTOverrideLocale.m */; };
@@ -107,7 +107,7 @@
 		A73D301A1918EE4100D49646 /* EndingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EndingViewController.h; path = ViewControllers/EndingViewController.h; sourceTree = "<group>"; };
 		A73D301B1918EE4100D49646 /* EndingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EndingViewController.m; path = ViewControllers/EndingViewController.m; sourceTree = "<group>"; };
 		A73D301C1918EE4100D49646 /* EndingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EndingViewController.xib; path = ViewControllers/EndingViewController.xib; sourceTree = "<group>"; };
-		A74B276D1952CC2C00AF3A7E /* alarm2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = alarm2.mp3; path = Sounds/alarm2.mp3; sourceTree = "<group>"; };
+		A74B276F1952D72200AF3A7E /* alarm3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = alarm3.mp3; path = Sounds/alarm3.mp3; sourceTree = "<group>"; };
 		A7B1E4E819514363003EE972 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A7B1E4E919514371003EE972 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		A7B1E4EB19517E0C003EE972 /* Alerts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Alerts.h; path = Helpers/Alerts.h; sourceTree = "<group>"; };
@@ -304,7 +304,7 @@
 		A7EFC729192AF97E00DA6267 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				A74B276D1952CC2C00AF3A7E /* alarm2.mp3 */,
+				A74B276F1952D72200AF3A7E /* alarm3.mp3 */,
 			);
 			name = Sounds;
 			sourceTree = "<group>";
@@ -398,7 +398,7 @@
 				A7EFC73C192B656200DA6267 /* Localizable.strings in Resources */,
 				A73D2FFB19188E6900D49646 /* BottomNavBar.xib in Resources */,
 				A73D300A1918A03D00D49646 /* ConfessionViewController.xib in Resources */,
-				A74B276E1952CC2C00AF3A7E /* alarm2.mp3 in Resources */,
+				A74B27701952D72200AF3A7E /* alarm3.mp3 in Resources */,
 				A73D301E1918EE4100D49646 /* EndingViewController.xib in Resources */,
 				A73D3000191895B400D49646 /* PrayingViewController.xib in Resources */,
 				A73D300519189E8600D49646 /* PrayReadingViewController.xib in Resources */,

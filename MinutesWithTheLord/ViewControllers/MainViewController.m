@@ -161,7 +161,7 @@
         [NSBundle ttt_overrideLanguage:@"es"];
         [NSLocale ttt_overrideRuntimeLocale:[NSLocale localeWithLocaleIdentifier:@"es"]];
     }
-    [self performSelector:@selector(startActivity) withObject:nil afterDelay:1.0];
+    [self performSelector:@selector(startActivity) withObject:nil afterDelay:0.5];
 }
 
 - (void)startActivity

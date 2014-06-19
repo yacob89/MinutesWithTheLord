@@ -105,7 +105,7 @@
 {
     _ispaused = YES;
     self.bottomNav.pauseButton.selected = YES;
-    NSString *stopAlert = [NSString stringWithFormat:@"%@ %@%d %@ %@", NSLocalizedString(@"alert_message1", nil), @"[", 7, NSLocalizedString(@"alert_message3", nil), NSLocalizedString(@"alert_message2", nil)];
+    NSString *stopAlert = [NSString stringWithFormat:@"%@ %@%@ %@ %@", NSLocalizedString(@"alert_message1", nil), @"[", NSLocalizedString(@"number_3", nil), NSLocalizedString(@"alert_message3", nil), NSLocalizedString(@"alert_message2", nil)];
     UIAlertView *message = [[UIAlertView alloc] initWithTitle:@""
                                                       message:stopAlert
                                                      delegate:self

@@ -10,6 +10,7 @@
 #import "PetitionViewController.h"
 #import "BottomNavBar.h"
 #import "EndingViewController.h"
+#import "AppDelegate.h"
 #define PETITION_TIME 5
 
 @interface PetitionViewController ()
@@ -49,13 +50,15 @@
     self.timerLabel.text = [NSString stringWithFormat:@"%d", PETITION_TIME - self.percentage];
     self.activityTitle.text = NSLocalizedString(@"petition", nil);
     self.activityDescription.text = NSLocalizedString(@"petition_desc", nil);
-    [self scheduleTimeoutTimer];
+    //[self scheduleTimeoutTimer];
 }
 
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
     [self.player play];
+    _ispaused = NO;
+    [self scheduleTimeoutTimer];
 }
 
 - (void)didReceiveMemoryWarning
@@ -106,6 +109,9 @@
     _ispaused = YES;
     self.bottomNav.pauseButton.selected = YES;
     NSString *stopAlert = [NSString stringWithFormat:@"%@ %@%@ %@ %@", NSLocalizedString(@"alert_message1", nil), @"[", NSLocalizedString(@"number_1", nil), NSLocalizedString(@"alert_message3", nil), NSLocalizedString(@"alert_message2", nil)];
+    if ([AppDelegate ad].isPortuguese) {
+        stopAlert = [NSString stringWithFormat:@"%@ %@ %@ %@ %@", NSLocalizedString(@"alert_message1", nil), NSLocalizedString(@"alert_message3", nil), NSLocalizedString(@"number_1", nil), NSLocalizedString(@"alert_message4", nil), NSLocalizedString(@"alert_message2", nil)];
+    }
     UIAlertView *message = [[UIAlertView alloc] initWithTitle:@""
                                                       message:stopAlert
                                                      delegate:self

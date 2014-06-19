@@ -12,6 +12,7 @@
 #import "NSLocale+TTTOverrideLocale.h"
 #import "NSObject+TTTSwizzling.h"
 #import "LanguageCell.h"
+#import "AppDelegate.h"
 
 @interface MainViewController ()
 
@@ -46,6 +47,7 @@
     if (self.callVC == nil) {
         self.callVC = [[CallingViewController alloc] initWithNibName:@"CallingViewController" bundle:nil];
     }
+    [AppDelegate ad].isPortuguese = NO;
 }
 
 - (void)didReceiveMemoryWarning
@@ -153,6 +155,7 @@
     }
     else if (selectedIndex == 6)
     {
+        [AppDelegate ad].isPortuguese = YES;
         [NSBundle ttt_overrideLanguage:@"pt"];
         [NSLocale ttt_overrideRuntimeLocale:[NSLocale localeWithLocaleIdentifier:@"pt"]];
     }

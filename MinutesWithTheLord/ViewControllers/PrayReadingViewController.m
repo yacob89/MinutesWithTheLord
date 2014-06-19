@@ -102,7 +102,8 @@
 
 - (void)stopButtonAction
 {
-    [self pauseButtonAction];
+    _ispaused = YES;
+    self.bottomNav.pauseButton.selected = YES;
     NSString *stopAlert = [NSString stringWithFormat:@"%@ %@%d %@ %@", NSLocalizedString(@"alert_message1", nil), @"[", 7, NSLocalizedString(@"alert_message3", nil), NSLocalizedString(@"alert_message2", nil)];
     UIAlertView *message = [[UIAlertView alloc] initWithTitle:@""
                                                       message:stopAlert
@@ -123,6 +124,8 @@
         [self.navigationController popToRootViewControllerAnimated:YES];
     }
     else{
+        _ispaused = YES;
+        self.bottomNav.pauseButton.selected = NO;
         [self pauseButtonAction];
         return;
     }

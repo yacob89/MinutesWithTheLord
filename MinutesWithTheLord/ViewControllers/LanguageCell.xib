@@ -24,7 +24,9 @@
                         </state>
                     </button>
                 </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             <connections>
                 <outlet property="languageButton" destination="ntF-fv-EZu" id="7Qw-4i-Cc3"/>
             </connections>

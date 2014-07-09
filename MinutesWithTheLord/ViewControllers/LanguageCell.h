@@ -2,7 +2,7 @@
 //  LanguageCell.h
 //  MinutesWithTheLord
 //
-//  Created by Maysora on 6/18/14.
+//  Created by yacob on 6/18/14.
 //  Copyright (c) 2014 churchinbandung. All rights reserved.
 //
 

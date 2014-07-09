@@ -95,10 +95,10 @@
         [cell setupAsBahasaIndonesia];
     }
     else if (indexPath.row == 1){
-        [cell setupAsChinese];
+        [cell setupAsTraditionalChinese];
     }
     else if (indexPath.row == 2){
-        [cell setupAsTraditionalChinese];
+        [cell setupAsChinese];
     }
     else if (indexPath.row == 3){
         [cell setupAsGerman];
@@ -123,20 +123,20 @@
 
 - (void)selectActionBtnTapped:(id)sender
 {
-    int selectedIndex = ((UIButton *)sender).tag;
+    NSUInteger selectedIndex = ((UIButton *)sender).tag;
     NSLog(@"SELECTED INDEX = %d", selectedIndex);
     if (selectedIndex == 0) {
         [NSBundle ttt_overrideLanguage:@"id-ID"];
         [NSLocale ttt_overrideRuntimeLocale:[NSLocale localeWithLocaleIdentifier:@"id-ID"]];
     }
     else if (selectedIndex == 1){
-        [NSBundle ttt_overrideLanguage:@"zh-Hans"];
-        [NSLocale ttt_overrideRuntimeLocale:[NSLocale localeWithLocaleIdentifier:@"zh-Hans"]];
+        [NSBundle ttt_overrideLanguage:@"zh-Hant"];
+        [NSLocale ttt_overrideRuntimeLocale:[NSLocale localeWithLocaleIdentifier:@"zh-Hant"]];
     }
     else if (selectedIndex == 2)
     {
-        [NSBundle ttt_overrideLanguage:@"zh-Hant"];
-        [NSLocale ttt_overrideRuntimeLocale:[NSLocale localeWithLocaleIdentifier:@"zh-Hant"]];
+        [NSBundle ttt_overrideLanguage:@"zh-Hans"];
+        [NSLocale ttt_overrideRuntimeLocale:[NSLocale localeWithLocaleIdentifier:@"zh-Hans"]];
     }
     else if (selectedIndex == 3)
     {

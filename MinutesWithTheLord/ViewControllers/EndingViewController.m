@@ -79,13 +79,19 @@
 
 - (void)prepareNotificationSound
 {
-    NSString *soundFilePath = [[NSBundle mainBundle] pathForResource:@"alarm2"
-                                                              ofType:@"mp3"];
-    NSURL *soundFileURL = [NSURL fileURLWithPath:soundFilePath];
-    
-    self.player = [[AVAudioPlayer alloc] initWithContentsOfURL:soundFileURL
-                                                         error:nil];
-    self.player.numberOfLoops = 1; //Infinite
+    NSString *stringPath = [[NSBundle mainBundle]pathForResource:@"alarm3" ofType:@"mp3"];
+    if (stringPath) {
+        NSURL *url = [NSURL fileURLWithPath:stringPath];
+        NSError *error;
+        self.player = [[AVAudioPlayer alloc]initWithContentsOfURL:url error:&error];
+        if (!error) {
+            [self.player setNumberOfLoops:0];
+        } else {
+            NSLog(@"Error occurred: %@", [error localizedDescription]);
+        }
+    } else {
+        NSLog(@"Resource not found");
+    }
 }
 
 @end
